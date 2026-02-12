@@ -66,6 +66,7 @@
         </Var>
        </Vars>
       </IntVars>
+      <ParameterSet id="{2b031117-23c8-45c0-b0b1-8753221f7029}" libraryPath="D:/SCG/GithubRepo/Model_Lib_ExGit/Library/lib_test1" name="PS_Gravity"/>
      </Submodel>
     </Comp>
    </Comps>
