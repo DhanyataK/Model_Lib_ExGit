@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParameterSetsIndex ContainerName="lib_test1">
+ <ModelParameterSetsGroup/>
+ <SubmodelParameterSetsGroup>
+  <SubmodelParameterSet id="{2b031117-23c8-45c0-b0b1-8753221f7029}">
+   <Submodel id="GRAV0"/>
+  </SubmodelParameterSet>
+ </SubmodelParameterSetsGroup>
+</ParameterSetsIndex>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE SPE>
+<SPE AME_VERSION="2604" DOC_VERSION="6" HOTFIX="0" MAJ="20261" UPDATE="0">
+ <Submodel autonomousCompilation="False" autonomousRuntime="False" cirPortsOverFramework="1" codeGenVersion="1.0" defaultIcon="component_4" idMax="1" outputType="0" type="1" unit="0">
+  <TextParams>
+   <ExposedList>
+    <Exposed exposedVar="filename@dynamic_time_table" origVarName="" subId="1" title="name of ASCII file" varName="filename"/>
+   </ExposedList>
+  </TextParams>
+  <ExposedOrder>
+   <Params>
+    <DataPaths>
+     <DataPath>filename</DataPath>
+    </DataPaths>
+    <Groups/>
+   </Params>
+   <Vars>
+    <Groups/>
+   </Vars>
+  </ExposedOrder>
+ </Submodel>
+</SPE>

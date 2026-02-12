@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParameterSetsIndex ContainerName="Lib_Data_PS">
+ <ModelParameterSetsGroup/>
+ <SubmodelParameterSetsGroup>
+  <SubmodelParameterSet id="{6065a0d3-2f9b-4dde-8757-8bf97df4281c}">
+   <Submodel id="SC_4"/>
+  </SubmodelParameterSet>
+  <SubmodelParameterSet id="{a5b94fdc-181b-49fa-ad4b-84813af51a64}">
+   <Submodel id="SC_4"/>
+  </SubmodelParameterSet>
+ </SubmodelParameterSetsGroup>
+</ParameterSetsIndex>

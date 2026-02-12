@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParameterSet name="PS_dataset" id="{a5b94fdc-181b-49fa-ad4b-84813af51a64}" description="qwerty">
+    <ToolInfo ToolName="AMESim">
+        <ToolDetails ToolDetail="AME_VERSION">2604</ToolDetails>
+        <ToolDetails ToolDetail="MAJ">20261</ToolDetails>
+        <ToolDetails ToolDetail="UPDATE">0</ToolDetails>
+        <ToolDetails ToolDetail="HOTFIX">0</ToolDetails>
+    </ToolInfo>
+    <ParameterData name="filename">
+        <value type="0">D:/SCG/GithubRepo/Model_Lib_ExGit/Library/Lib_Data_PS/Data/Testdata2.data</value>
+        <unit></unit>
+        <description dimension="1">
+            <item>name of ASCII file</item>
+        </description>
+    </ParameterData>
+</ParameterSet>

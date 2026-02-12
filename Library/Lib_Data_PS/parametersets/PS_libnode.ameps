@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParameterSet name="PS_libnode" id="{6065a0d3-2f9b-4dde-8757-8bf97df4281c}" description="">
+    <ToolInfo ToolName="AMESim">
+        <ToolDetails ToolDetail="AME_VERSION">2604</ToolDetails>
+        <ToolDetails ToolDetail="MAJ">20261</ToolDetails>
+        <ToolDetails ToolDetail="UPDATE">0</ToolDetails>
+        <ToolDetails ToolDetail="HOTFIX">0</ToolDetails>
+    </ToolInfo>
+    <ParameterData name="filename">
+        <value type="0">${PS_library_node}/Data/Testdata2.data</value>
+        <unit></unit>
+        <description dimension="1">
+            <item>name of ASCII file</item>
+        </description>
+    </ParameterData>
+</ParameterSet>

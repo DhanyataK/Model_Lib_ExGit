@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParameterSet name="PS_Gravity" id="{2b031117-23c8-45c0-b0b1-8753221f7029}" description="Test_PS_save">
+    <ToolInfo ToolName="AMESim">
+        <ToolDetails ToolDetail="AME_VERSION">2604</ToolDetails>
+        <ToolDetails ToolDetail="MAJ">20261</ToolDetails>
+        <ToolDetails ToolDetail="UPDATE">0</ToolDetails>
+        <ToolDetails ToolDetail="HOTFIX">0</ToolDetails>
+    </ToolInfo>
+    <ParameterData name="disc">
+        <value type="1">2</value>
+        <unit></unit>
+        <description dimension="1">
+            <item>discontinuity handling</item>
+        </description>
+    </ParameterData>
+    <ParameterData name="fixedg">
+        <value type="2">9.80665</value>
+        <unit>m/s/s</unit>
+        <description dimension="1">
+            <item>constant gravity value</item>
+        </description>
+    </ParameterData>
+    <ParameterData name="gfile">
+        <value type="0">file.data</value>
+        <unit></unit>
+        <description dimension="1">
+            <item>filename for g = f(t)</item>
+        </description>
+    </ParameterData>
+    <ParameterData name="gtype">
+        <value type="1">1</value>
+        <unit></unit>
+        <description dimension="1">
+            <item>setting type</item>
+        </description>
+    </ParameterData>
+    <ParameterData name="mode">
+        <value type="1">1</value>
+        <unit></unit>
+        <description dimension="1">
+            <item>data out of range mode</item>
+        </description>
+    </ParameterData>
+</ParameterSet>
