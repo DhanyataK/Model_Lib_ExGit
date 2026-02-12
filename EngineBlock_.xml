@@ -1,5 +1,0 @@
-<properties xmlns="amesim-property-instances" version="1" >
- <property target="model:" id="id0" name="@special:model_history" >
-  <struct/>
- </property>
-</properties>
