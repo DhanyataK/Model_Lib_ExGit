@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE SPE>
 <SPE AME_VERSION="2604" DOC_VERSION="6" HOTFIX="0" MAJ="20261" UPDATE="0">
- <Submodel autonomousCompilation="False" autonomousRuntime="False" cirPortsOverFramework="1" codeGenVersion="1.0" defaultIcon="component_3" idsReset="0" outputType="0" type="1" unit="0">
+ <Submodel autonomousCompilation="False" autonomousRuntime="False" cirPortsOverFramework="1" codeGenVersion="1.0" defaultIcon="component_3" idMax="1" idsReset="0" outputType="0" type="1" unit="0">
+  <RealParams>
+   <ExposedList>
+    <Exposed exposedVar="fixedg@gravityicon" origVarName="" subId="1" title="constant gravity value" varName="fixedg"/>
+   </ExposedList>
+  </RealParams>
   <ExposedOrder>
    <Params>
+    <DataPaths>
+     <DataPath>fixedg</DataPath>
+    </DataPaths>
     <Groups/>
    </Params>
    <Vars>
