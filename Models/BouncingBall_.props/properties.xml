@@ -7,16 +7,16 @@
  </property>
  <property id="id1" name="@special:prepost_tools_document_plots" target="model:">
   <struct>
-   <attribute name="plot_347ceed3">
+   <attribute name="plot_7c1dfb5d">
     <struct>
      <attribute name="PP_TOOLS_TITLE_ATTRIBUTE">
-      <data typename="simple-text">EngineBlock</data>
+      <data typename="simple-text">ball displacement</data>
      </attribute>
      <attribute name="PP_TOOLS_AOPEN_ATTRIBUTE">
       <data typename="simple-text">false</data>
      </attribute>
      <attribute name="PP_TOOLS_FILE_ATTRIBUTE">
-      <data typename="simple-text">plot_EngineBlock.plt</data>
+      <data typename="simple-text">plot_ball_displacement.plt</data>
      </attribute>
     </struct>
    </attribute>
