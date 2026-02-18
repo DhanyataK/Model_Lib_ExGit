@@ -4,7 +4,7 @@
  <Submodel autonomousCompilation="False" autonomousRuntime="False" cirPortsOverFramework="1" codeGenVersion="1.0" defaultIcon="component_3" idMax="1" idsReset="0" outputType="0" type="1" unit="0">
   <RealParams>
    <ExposedList>
-    <Exposed exposedVar="fixedg@gravityicon" origVarName="" subId="1" title="constant gravity value" varName="fixedg"/>
+    <Exposed exposedVar="fixedg@gravityicon" origVarName="" subId="1" title="constant gravity value" varName="fixedg" />
    </ExposedList>
   </RealParams>
   <ExposedOrder>
@@ -12,10 +12,10 @@
     <DataPaths>
      <DataPath>fixedg</DataPath>
     </DataPaths>
-    <Groups/>
+    <Groups />
    </Params>
    <Vars>
-    <Groups/>
+    <Groups />
    </Vars>
   </ExposedOrder>
  </Submodel>
