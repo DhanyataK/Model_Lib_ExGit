@@ -1,0 +1,910 @@
+CLOC instance 1 simulation time in s Data_Path=tout@clock
+RSTAT instance 1 CPU time [s] Data_Path=cpu@runstats_2
+RSTAT instance 1 elapsed time [s] Data_Path=wallTime@runstats_2
+RSTAT instance 1 log 10 current integration step [s] Data_Path=step@runstats_2
+RSTAT instance 1 log 10 minimum integration step [s] Data_Path=minh@runstats_2
+RSTAT instance 1 log 10 maximum integration step [s] Data_Path=maxh@runstats_2
+RSTAT instance 1 log 10 minimum integration step since last print [s] Data_Path=minhprint@runstats_2
+RSTAT instance 1 log 10 maximum integration step since last print [s] Data_Path=maxhprint@runstats_2
+RSTAT instance 1 current total number of Jacobians Data_Path=njacs@runstats_2
+RSTAT instance 1 current total number of function evaluations Data_Path=nfes@runstats_2
+RSTAT instance 1 current total number of discontinuities processed Data_Path=ndisc@runstats_2
+RSTAT instance 1 current total number of steps Data_Path=nsteps@runstats_2
+RSTAT instance 1 mean CPU time per function evaluation [s] Data_Path=fetime@runstats_2
+RSTAT instance 1 mean CPU time per step [s] Data_Path=stime@runstats_2
+RSTAT instance 1 total number of Adams steps Data_Path=nadams@runstats_2
+RSTAT instance 1 total number of bdf steps Data_Path=nbdf@runstats_2
+RSTAT instance 1 [1] number of Adams steps of order Data_Path=adams_1@runstats_2
+RSTAT instance 1 [2] number of Adams steps of order Data_Path=adams_2@runstats_2
+RSTAT instance 1 [3] number of Adams steps of order Data_Path=adams_3@runstats_2
+RSTAT instance 1 [4] number of Adams steps of order Data_Path=adams_4@runstats_2
+RSTAT instance 1 [5] number of Adams steps of order Data_Path=adams_5@runstats_2
+RSTAT instance 1 [6] number of Adams steps of order Data_Path=adams_6@runstats_2
+RSTAT instance 1 [7] number of Adams steps of order Data_Path=adams_7@runstats_2
+RSTAT instance 1 [8] number of Adams steps of order Data_Path=adams_8@runstats_2
+RSTAT instance 1 [9] number of Adams steps of order Data_Path=adams_9@runstats_2
+RSTAT instance 1 [10] number of Adams steps of order Data_Path=adams_10@runstats_2
+RSTAT instance 1 [11] number of Adams steps of order Data_Path=adams_11@runstats_2
+RSTAT instance 1 [12] number of Adams steps of order Data_Path=adams_12@runstats_2
+RSTAT instance 1 [1] number of BDF steps of order Data_Path=bdf_1@runstats_2
+RSTAT instance 1 [2] number of BDF steps of order Data_Path=bdf_2@runstats_2
+RSTAT instance 1 [3] number of BDF steps of order Data_Path=bdf_3@runstats_2
+RSTAT instance 1 [4] number of BDF steps of order Data_Path=bdf_4@runstats_2
+RSTAT instance 1 [5] number of BDF steps of order Data_Path=bdf_5@runstats_2
+GA00 instance 1 output from gain Data_Path=output@elect01_2_2_2
+FX00 instance 6 function of input x Data_Path=fofx@fofx_6
+GA00 instance 1 value of gain - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@elect01_2_2_2
+SPLT0 instance 1 duplicate of input to junction Data_Path=out1@control04_2_2_2
+SPLT0 instance 1 duplicate of input to junction Data_Path=out2@control04_2_2_2
+MOD00 instance 1 output Data_Path=tetout@control15_2_2_2
+GA00 instance 2 output from gain Data_Path=output@elect01_2_2_2_2
+FX00 instance 5 function of input x Data_Path=fofx@fofx_5
+GA00 instance 2 value of gain - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@elect01_2_2_2_2
+SPLT0 instance 2 duplicate of input to junction Data_Path=out1@control04_2_2_2_2
+SPLT0 instance 2 duplicate of input to junction Data_Path=out2@control04_2_2_2_2
+JUN3P instance 1 output from summing junction Data_Path=output@sum
+GA00 instance 3 output from gain Data_Path=output@elect01_2_2_2_2_2
+FX00 instance 4 function of input x Data_Path=fofx@fofx_4
+GA00 instance 3 value of gain - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@elect01_2_2_2_2_2
+SPLT0 instance 3 duplicate of input to junction Data_Path=out1@control04_2_2_2_2_2
+SPLT0 instance 3 duplicate of input to junction Data_Path=out2@control04_2_2_2_2_2
+JUN3P instance 2 output from summing junction Data_Path=output@sum_1
+GA00 instance 4 output from gain Data_Path=output@elect01_2_2_2_2_3
+FX00 instance 3 function of input x Data_Path=fofx@fofx_3
+GA00 instance 4 value of gain - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@elect01_2_2_2_2_3
+CONS00 instance 1 output Data_Path=out@constant_2_5_2
+CONS00 instance 1 constant value - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@constant_2_5_2
+CONS00 instance 2 output Data_Path=out@constant_2_2_2
+CONS00 instance 2 constant value - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@constant_2_2_2
+SPLT0 instance 4 duplicate of input to junction Data_Path=out1@control04_2_2_3
+SPLT0 instance 4 duplicate of input to junction Data_Path=out2@control04_2_2_3
+SPLT0 instance 5 duplicate of input to junction Data_Path=out1@control04_2_2_3_2
+SPLT0 instance 5 duplicate of input to junction Data_Path=out2@control04_2_2_3_2
+SPLT0 instance 6 duplicate of input to junction Data_Path=out1@control04_2_2_3_3
+SPLT0 instance 6 duplicate of input to junction Data_Path=out2@control04_2_2_3_3
+SPLT0 instance 7 duplicate of input to junction Data_Path=out2@control04_2_2_3_6
+MUL00 instance 1 multiplied signal at port 2 Data_Path=outp@control22_6
+SPLT0 instance 9 duplicate of input to junction Data_Path=out2@control04_2_2_3_3_2
+MUL00 instance 2 multiplied signal at port 2 Data_Path=outp@control22_4
+SPLT0 instance 11 duplicate of input to junction Data_Path=out2@control04_2_2_3_3_2_2
+MUL00 instance 3 multiplied signal at port 2 Data_Path=outp@control22_6_2
+SPLT0 instance 8 duplicate of input to junction Data_Path=out2@control04_2_2_3_2_2
+MUL00 instance 4 multiplied signal at port 2 Data_Path=outp@control22_5
+SPLT0 instance 7 duplicate of input to junction Data_Path=out1@control04_2_2_3_6
+UD00 instance 1 user defined duty cycle output Data_Path=output@signal03_3
+SPLT0 instance 8 duplicate of input to junction Data_Path=out1@control04_2_2_3_2_2
+SPLT0 instance 9 duplicate of input to junction Data_Path=out1@control04_2_2_3_3_2
+SIGRECEI0 instance 1 receiver output Data_Path=output@receiver_4
+MOD00 instance 1 number of cycles Data_Path=ncycle@control15_2_2_2
+MOD00 instance 1 offset to be added to input - Linked variable Is_Linked_Variable=1 Data_Path=tetoff0GEN@control15_2_2_2
+MOD00 instance 1 maximum ouput value - Linked variable Is_Linked_Variable=1 Data_Path=tetmax0GEN@control15_2_2_2
+MOD00 instance 1 minimum output value - Linked variable Is_Linked_Variable=1 Data_Path=tetmin0GEN@control15_2_2_2
+TRVDNODE01 instance 2 [1] total force applied at port 6 - Ground frame [N] Data_Path=f6totR0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] total force applied at port 6 - Ground frame [N] Data_Path=f6totR0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] total force applied at port 6 - Ground frame [N] Data_Path=f6totR0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] total torque applied at port 6 - Ground frame [Nm] Data_Path=t6totR0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] total torque applied at port 6 - Ground frame [Nm] Data_Path=t6totR0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] total torque applied at port 6 - Ground frame [Nm] Data_Path=t6totR0_3@1junction3d_3_2
+VDSRV03D0 instance 1 [1] Port 1  (output) : absolute velocity of point G1 - Ground frame - V(G1)_Ri/R0|R0 [m/s] Data_Path=vG1R0_1@zerospeedsource
+VDSRV03D0 instance 1 [2] Port 1  (output) : absolute velocity of point G1 - Ground frame - V(G1)_Ri/R0|R0 [m/s] Data_Path=vG1R0_2@zerospeedsource
+VDSRV03D0 instance 1 [3] Port 1  (output) : absolute velocity of point G1 - Ground frame - V(G1)_Ri/R0|R0 [m/s] Data_Path=vG1R0_3@zerospeedsource
+VDSRV03D0 instance 1 [1] Port 1  (output) : absolute position of point G1 - Ground frame - OG1|R0 [m] Data_Path=OG1R0_1@zerospeedsource
+VDSRV03D0 instance 1 [2] Port 1  (output) : absolute position of point G1 - Ground frame - OG1|R0 [m] Data_Path=OG1R0_2@zerospeedsource
+VDSRV03D0 instance 1 [3] Port 1  (output) : absolute position of point G1 - Ground frame - OG1|R0 [m] Data_Path=OG1R0_3@zerospeedsource
+VDSRV03D0 instance 1 [1] Port 1  (output) : body rotary velocity (Ri vs Galilean frame R0) - Body frame (Ri) - OmegaRi/R0|Ri [degree/s] Data_Path=omeg1Ri_1@zerospeedsource
+VDSRV03D0 instance 1 [2] Port 1  (output) : body rotary velocity (Ri vs Galilean frame R0) - Body frame (Ri) - OmegaRi/R0|Ri [degree/s] Data_Path=omeg1Ri_2@zerospeedsource
+VDSRV03D0 instance 1 [3] Port 1  (output) : body rotary velocity (Ri vs Galilean frame R0) - Body frame (Ri) - OmegaRi/R0|Ri [degree/s] Data_Path=omeg1Ri_3@zerospeedsource
+VDSRV03D0 instance 1 [1] Port 1  (output) : Euler angle (motion Ri vs R(i-1)  ) - (0)=(x) - (1)=(y) - (2)=(z) [degree] Data_Path=EulerAngle1_1@zerospeedsource
+VDSRV03D0 instance 1 [2] Port 1  (output) : Euler angle (motion Ri vs R(i-1)  ) - (0)=(x) - (1)=(y) - (2)=(z) [degree] Data_Path=EulerAngle1_2@zerospeedsource
+VDSRV03D0 instance 1 [3] Port 1  (output) : Euler angle (motion Ri vs R(i-1)  ) - (0)=(x) - (1)=(y) - (2)=(z) [degree] Data_Path=EulerAngle1_3@zerospeedsource
+VDSRV03D0 instance 1 [1] Port 1  (output) : Geometrical parameter : Localisation of  Ogrid G1 - Body Frame (Ri) [m] Data_Path=OgridG1Ri_1@zerospeedsource
+VDSRV03D0 instance 1 [2] Port 1  (output) : Geometrical parameter : Localisation of  Ogrid G1 - Body Frame (Ri) [m] Data_Path=OgridG1Ri_2@zerospeedsource
+VDSRV03D0 instance 1 [3] Port 1  (output) : Geometrical parameter : Localisation of  Ogrid G1 - Body Frame (Ri) [m] Data_Path=OgridG1Ri_3@zerospeedsource
+VDSRV03D0 instance 1 Port 1  (output) : INDEX : carbody frame OR wheel index Data_Path=CarWheelIndex1@zerospeedsource
+VDSRV03D0 instance 1 [1] Port 1  (output) : Frame change matrix (Ri/R0) = R0 -> Ri Data_Path=Matrix1R0Ri_1@zerospeedsource
+VDSRV03D0 instance 1 [2] Port 1  (output) : Frame change matrix (Ri/R0) = R0 -> Ri Data_Path=Matrix1R0Ri_2@zerospeedsource
+VDSRV03D0 instance 1 [3] Port 1  (output) : Frame change matrix (Ri/R0) = R0 -> Ri Data_Path=Matrix1R0Ri_3@zerospeedsource
+VDSRV03D0 instance 1 [4] Port 1  (output) : Frame change matrix (Ri/R0) = R0 -> Ri Data_Path=Matrix1R0Ri_4@zerospeedsource
+VDSRV03D0 instance 1 [5] Port 1  (output) : Frame change matrix (Ri/R0) = R0 -> Ri Data_Path=Matrix1R0Ri_5@zerospeedsource
+VDSRV03D0 instance 1 [6] Port 1  (output) : Frame change matrix (Ri/R0) = R0 -> Ri Data_Path=Matrix1R0Ri_6@zerospeedsource
+VDSRV03D0 instance 1 [7] Port 1  (output) : Frame change matrix (Ri/R0) = R0 -> Ri Data_Path=Matrix1R0Ri_7@zerospeedsource
+VDSRV03D0 instance 1 [8] Port 1  (output) : Frame change matrix (Ri/R0) = R0 -> Ri Data_Path=Matrix1R0Ri_8@zerospeedsource
+VDSRV03D0 instance 1 [9] Port 1  (output) : Frame change matrix (Ri/R0) = R0 -> Ri Data_Path=Matrix1R0Ri_9@zerospeedsource
+VDSRV03D0 instance 1 [1] Port 1  (output) : absolute acceleration of point G1 - Ground frame - A(G1)_Ri/R0|R0 [m/s/s] Data_Path=aG1R0_1@zerospeedsource
+VDSRV03D0 instance 1 [2] Port 1  (output) : absolute acceleration of point G1 - Ground frame - A(G1)_Ri/R0|R0 [m/s/s] Data_Path=aG1R0_2@zerospeedsource
+VDSRV03D0 instance 1 [3] Port 1  (output) : absolute acceleration of point G1 - Ground frame - A(G1)_Ri/R0|R0 [m/s/s] Data_Path=aG1R0_3@zerospeedsource
+VDSRV03D0 instance 1 [1] Port 1  (output) : absolute angular acceleration  (Ri vs Galilean frame R0 ) - Body frame (Ri) - dOmegaRi/R0|Ri  [rad/s/s] Data_Path=domeg1Ri_1@zerospeedsource
+VDSRV03D0 instance 1 [2] Port 1  (output) : absolute angular acceleration  (Ri vs Galilean frame R0 ) - Body frame (Ri) - dOmegaRi/R0|Ri  [rad/s/s] Data_Path=domeg1Ri_2@zerospeedsource
+VDSRV03D0 instance 1 [3] Port 1  (output) : absolute angular acceleration  (Ri vs Galilean frame R0 ) - Body frame (Ri) - dOmegaRi/R0|Ri  [rad/s/s] Data_Path=domeg1Ri_3@zerospeedsource
+TRVDNODE01 instance 1 [1] absolute velocity at port 3 - Ground frame [m/s] Data_Path=v3R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute velocity at port 3 - Ground frame [m/s] Data_Path=v3R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute velocity at port 3 - Ground frame [m/s] Data_Path=v3R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] absolute position at port 3 - Ground frame [m] Data_Path=OM3R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute position at port 3 - Ground frame [m] Data_Path=OM3R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute position at port 3 - Ground frame [m] Data_Path=OM3R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p3v3_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p3v3_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p3v3_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p3v4_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p3v4_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p3v4_3@1junction3d_2
+TRVDNODE01 instance 1 [1] geometrical parameter : location of OgridM3 - solid frame [m] Data_Path=OgridM3_1@1junction3d_2
+TRVDNODE01 instance 1 [2] geometrical parameter : location of OgridM3 - solid frame [m] Data_Path=OgridM3_2@1junction3d_2
+TRVDNODE01 instance 1 [3] geometrical parameter : location of OgridM3 - solid frame [m] Data_Path=OgridM3_3@1junction3d_2
+TRVDNODE01 instance 1 duplicate of index at port 6 : solid index Data_Path=p3v6@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_3@1junction3d_2
+TRVDNODE01 instance 1 [4] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_4@1junction3d_2
+TRVDNODE01 instance 1 [5] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_5@1junction3d_2
+TRVDNODE01 instance 1 [6] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_6@1junction3d_2
+TRVDNODE01 instance 1 [7] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_7@1junction3d_2
+TRVDNODE01 instance 1 [8] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_8@1junction3d_2
+TRVDNODE01 instance 1 [9] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_9@1junction3d_2
+TRVDNODE01 instance 1 [1] absolute acceleration at port 3 - Ground frame [m/s/s] Data_Path=a3R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute acceleration at port 3 - Ground frame [m/s/s] Data_Path=a3R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute acceleration at port 3 - Ground frame [m/s/s] Data_Path=a3R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p3v9_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p3v9_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p3v9_3@1junction3d_2
+VDSRF00 instance 1 [1] force (always zero) [N] Data_Path=fzero_1@zeroforcesource_4_2_2_2
+VDSRF00 instance 1 [2] force (always zero) [N] Data_Path=fzero_2@zeroforcesource_4_2_2_2
+VDSRF00 instance 1 [3] force (always zero) [N] Data_Path=fzero_3@zeroforcesource_4_2_2_2
+VDSRF00 instance 1 [1] torque (always zero) [Nm] Data_Path=tzero_1@zeroforcesource_4_2_2_2
+VDSRF00 instance 1 [2] torque (always zero) [Nm] Data_Path=tzero_2@zeroforcesource_4_2_2_2
+VDSRF00 instance 1 [3] torque (always zero) [Nm] Data_Path=tzero_3@zeroforcesource_4_2_2_2
+TRVDNODE01 instance 2 [1] absolute velocity at port 3 - Ground frame [m/s] Data_Path=v3R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute velocity at port 3 - Ground frame [m/s] Data_Path=v3R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute velocity at port 3 - Ground frame [m/s] Data_Path=v3R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] absolute position at port 3 - Ground frame [m] Data_Path=OM3R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute position at port 3 - Ground frame [m] Data_Path=OM3R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute position at port 3 - Ground frame [m] Data_Path=OM3R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p3v3_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p3v3_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p3v3_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p3v4_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p3v4_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p3v4_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] geometrical parameter : location of OgridM3 - solid frame [m] Data_Path=OgridM3_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] geometrical parameter : location of OgridM3 - solid frame [m] Data_Path=OgridM3_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] geometrical parameter : location of OgridM3 - solid frame [m] Data_Path=OgridM3_3@1junction3d_3_2
+TRVDNODE01 instance 2 duplicate of index at port 6 : solid index Data_Path=p3v6@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_3@1junction3d_3_2
+TRVDNODE01 instance 2 [4] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_4@1junction3d_3_2
+TRVDNODE01 instance 2 [5] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_5@1junction3d_3_2
+TRVDNODE01 instance 2 [6] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_6@1junction3d_3_2
+TRVDNODE01 instance 2 [7] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_7@1junction3d_3_2
+TRVDNODE01 instance 2 [8] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_8@1junction3d_3_2
+TRVDNODE01 instance 2 [9] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p3v7_9@1junction3d_3_2
+TRVDNODE01 instance 2 [1] absolute acceleration at port 3 - Ground frame [m/s/s] Data_Path=a3R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute acceleration at port 3 - Ground frame [m/s/s] Data_Path=a3R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute acceleration at port 3 - Ground frame [m/s/s] Data_Path=a3R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p3v9_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p3v9_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p3v9_3@1junction3d_3_2
+VDSRF00 instance 2 [1] force (always zero) [N] Data_Path=fzero_1@zeroforcesource_2_3_2_2_2
+VDSRF00 instance 2 [2] force (always zero) [N] Data_Path=fzero_2@zeroforcesource_2_3_2_2_2
+VDSRF00 instance 2 [3] force (always zero) [N] Data_Path=fzero_3@zeroforcesource_2_3_2_2_2
+VDSRF00 instance 2 [1] torque (always zero) [Nm] Data_Path=tzero_1@zeroforcesource_2_3_2_2_2
+VDSRF00 instance 2 [2] torque (always zero) [Nm] Data_Path=tzero_2@zeroforcesource_2_3_2_2_2
+VDSRF00 instance 2 [3] torque (always zero) [Nm] Data_Path=tzero_3@zeroforcesource_2_3_2_2_2
+TRVDNODE01 instance 2 [1] absolute velocity at port 4 - Ground frame [m/s] Data_Path=v4R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute velocity at port 4 - Ground frame [m/s] Data_Path=v4R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute velocity at port 4 - Ground frame [m/s] Data_Path=v4R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] absolute position at port 4 - Ground frame [m] Data_Path=OM4R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute position at port 4 - Ground frame [m] Data_Path=OM4R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute position at port 4 - Ground frame [m] Data_Path=OM4R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p4v3_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p4v3_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p4v3_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p4v4_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p4v4_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p4v4_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] geometrical parameter : location of OgridM4 - solid frame [m] Data_Path=OgridM4_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] geometrical parameter : location of OgridM4 - solid frame [m] Data_Path=OgridM4_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] geometrical parameter : location of OgridM4 - solid frame [m] Data_Path=OgridM4_3@1junction3d_3_2
+TRVDNODE01 instance 2 duplicate of index at port 6 : solid index Data_Path=p4v6@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_3@1junction3d_3_2
+TRVDNODE01 instance 2 [4] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_4@1junction3d_3_2
+TRVDNODE01 instance 2 [5] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_5@1junction3d_3_2
+TRVDNODE01 instance 2 [6] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_6@1junction3d_3_2
+TRVDNODE01 instance 2 [7] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_7@1junction3d_3_2
+TRVDNODE01 instance 2 [8] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_8@1junction3d_3_2
+TRVDNODE01 instance 2 [9] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_9@1junction3d_3_2
+TRVDNODE01 instance 2 [1] absolute acceleration at port 4 - Ground frame [m/s/s] Data_Path=a4R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute acceleration at port 4 - Ground frame [m/s/s] Data_Path=a4R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute acceleration at port 4 - Ground frame [m/s/s] Data_Path=a4R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p4v9_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p4v9_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p4v9_3@1junction3d_3_2
+VDSRF00 instance 3 [1] force (always zero) [N] Data_Path=fzero_1@zeroforcesource_2_2_2_2_2_2
+VDSRF00 instance 3 [2] force (always zero) [N] Data_Path=fzero_2@zeroforcesource_2_2_2_2_2_2
+VDSRF00 instance 3 [3] force (always zero) [N] Data_Path=fzero_3@zeroforcesource_2_2_2_2_2_2
+VDSRF00 instance 3 [1] torque (always zero) [Nm] Data_Path=tzero_1@zeroforcesource_2_2_2_2_2_2
+VDSRF00 instance 3 [2] torque (always zero) [Nm] Data_Path=tzero_2@zeroforcesource_2_2_2_2_2_2
+VDSRF00 instance 3 [3] torque (always zero) [Nm] Data_Path=tzero_3@zeroforcesource_2_2_2_2_2_2
+TRVDNODE01 instance 2 [1] absolute velocity at port 2 - Ground frame [m/s] Data_Path=v2R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute velocity at port 2 - Ground frame [m/s] Data_Path=v2R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute velocity at port 2 - Ground frame [m/s] Data_Path=v2R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] absolute position at port 2 - Ground frame [m] Data_Path=OM2R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute position at port 2 - Ground frame [m] Data_Path=OM2R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute position at port 2 - Ground frame [m] Data_Path=OM2R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p2v3_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p2v3_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p2v3_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p2v4_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p2v4_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p2v4_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] geometrical parameter : location of OgridM2 - solid frame [m] Data_Path=OgridM2_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] geometrical parameter : location of OgridM2 - solid frame [m] Data_Path=OgridM2_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] geometrical parameter : location of OgridM2 - solid frame [m] Data_Path=OgridM2_3@1junction3d_3_2
+TRVDNODE01 instance 2 duplicate of index at port 6 : solid index Data_Path=p2v6@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_3@1junction3d_3_2
+TRVDNODE01 instance 2 [4] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_4@1junction3d_3_2
+TRVDNODE01 instance 2 [5] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_5@1junction3d_3_2
+TRVDNODE01 instance 2 [6] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_6@1junction3d_3_2
+TRVDNODE01 instance 2 [7] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_7@1junction3d_3_2
+TRVDNODE01 instance 2 [8] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_8@1junction3d_3_2
+TRVDNODE01 instance 2 [9] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_9@1junction3d_3_2
+TRVDNODE01 instance 2 [1] absolute acceleration at port 2 - Ground frame [m/s/s] Data_Path=a2R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute acceleration at port 2 - Ground frame [m/s/s] Data_Path=a2R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute acceleration at port 2 - Ground frame [m/s/s] Data_Path=a2R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p2v9_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p2v9_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p2v9_3@1junction3d_3_2
+TRVDENGMOUNT02 instance 1 [1] sign reversed duplicate of port 2 - force applied by the mount - Ground frame [N] Data_Path=f1bodyR0_1@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [2] sign reversed duplicate of port 2 - force applied by the mount - Ground frame [N] Data_Path=f1bodyR0_2@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [3] sign reversed duplicate of port 2 - force applied by the mount - Ground frame [N] Data_Path=f1bodyR0_3@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [1] sign reversed duplicate of port 2 - torque applied by the mount (always zero) - Ground frame [Nm] Data_Path=T1bodyR0_1@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [2] sign reversed duplicate of port 2 - torque applied by the mount (always zero) - Ground frame [Nm] Data_Path=T1bodyR0_2@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [3] sign reversed duplicate of port 2 - torque applied by the mount (always zero) - Ground frame [Nm] Data_Path=T1bodyR0_3@engmount3dmodel_2
+TRVDNODE01 instance 1 [1] absolute velocity at port 2 - Ground frame [m/s] Data_Path=v2R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute velocity at port 2 - Ground frame [m/s] Data_Path=v2R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute velocity at port 2 - Ground frame [m/s] Data_Path=v2R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] absolute position at port 2 - Ground frame [m] Data_Path=OM2R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute position at port 2 - Ground frame [m] Data_Path=OM2R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute position at port 2 - Ground frame [m] Data_Path=OM2R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p2v3_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p2v3_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p2v3_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p2v4_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p2v4_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p2v4_3@1junction3d_2
+TRVDNODE01 instance 1 [1] geometrical parameter : location of OgridM2 - solid frame [m] Data_Path=OgridM2_1@1junction3d_2
+TRVDNODE01 instance 1 [2] geometrical parameter : location of OgridM2 - solid frame [m] Data_Path=OgridM2_2@1junction3d_2
+TRVDNODE01 instance 1 [3] geometrical parameter : location of OgridM2 - solid frame [m] Data_Path=OgridM2_3@1junction3d_2
+TRVDNODE01 instance 1 duplicate of index at port 6 : solid index Data_Path=p2v6@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_3@1junction3d_2
+TRVDNODE01 instance 1 [4] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_4@1junction3d_2
+TRVDNODE01 instance 1 [5] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_5@1junction3d_2
+TRVDNODE01 instance 1 [6] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_6@1junction3d_2
+TRVDNODE01 instance 1 [7] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_7@1junction3d_2
+TRVDNODE01 instance 1 [8] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_8@1junction3d_2
+TRVDNODE01 instance 1 [9] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p2v7_9@1junction3d_2
+TRVDNODE01 instance 1 [1] absolute acceleration at port 2 - Ground frame [m/s/s] Data_Path=a2R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute acceleration at port 2 - Ground frame [m/s/s] Data_Path=a2R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute acceleration at port 2 - Ground frame [m/s/s] Data_Path=a2R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p2v9_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p2v9_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p2v9_3@1junction3d_2
+TRVDENGMOUNT02 instance 1 [1] port 2 - force applied by the mount - Ground frame [N] Data_Path=f2engR0_1@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [2] port 2 - force applied by the mount - Ground frame [N] Data_Path=f2engR0_2@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [3] port 2 - force applied by the mount - Ground frame [N] Data_Path=f2engR0_3@engmount3dmodel_2
+HIDDEN [1]
+HIDDEN [2]
+HIDDEN [3]
+TRVDENGMOUNT02 instance 1 [1] spring/damper force - mount frame [N] Data_Path=fmountR4_1@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [2] spring/damper force - mount frame [N] Data_Path=fmountR4_2@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [3] spring/damper force - mount frame [N] Data_Path=fmountR4_3@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [1] stiffness - mount frame [N/m] Data_Path=kstif_1@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [2] stiffness - mount frame [N/m] Data_Path=kstif_2@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [3] stiffness - mount frame [N/m] Data_Path=kstif_3@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [1] damping coefficient - mount frame [N/(m/s)] Data_Path=cdamp_1@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [2] damping coefficient - mount frame [N/(m/s)] Data_Path=cdamp_2@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [3] damping coefficient - mount frame [N/(m/s)] Data_Path=cdamp_3@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [1] damping force - mount frame [N] Data_Path=fdamp_1@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [2] damping force - mount frame [N] Data_Path=fdamp_2@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [3] damping force - mount frame [N] Data_Path=fdamp_3@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [1] compression - mount frame [m] Data_Path=xrelR4_1@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [2] compression - mount frame [m] Data_Path=xrelR4_2@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [3] compression - mount frame [m] Data_Path=xrelR4_3@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [1] compression velocity - mount frame [m/s] Data_Path=vrelR4_1@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [2] compression velocity - mount frame [m/s] Data_Path=vrelR4_2@engmount3dmodel_2
+TRVDENGMOUNT02 instance 1 [3] compression velocity - mount frame [m/s] Data_Path=vrelR4_3@engmount3dmodel_2
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+TRVDNODE01 instance 2 [1] absolute velocity at port 5 - Ground frame [m/s] Data_Path=v5R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute velocity at port 5 - Ground frame [m/s] Data_Path=v5R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute velocity at port 5 - Ground frame [m/s] Data_Path=v5R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] absolute position at port 5 - Ground frame [m] Data_Path=OM5R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute position at port 5 - Ground frame [m] Data_Path=OM5R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute position at port 5 - Ground frame [m] Data_Path=OM5R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p5v3_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p5v3_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p5v3_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p5v4_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p5v4_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p5v4_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] geometrical parameter : location of OgridM5 - solid frame [m] Data_Path=OgridM5_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] geometrical parameter : location of OgridM5 - solid frame [m] Data_Path=OgridM5_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] geometrical parameter : location of OgridM5 - solid frame [m] Data_Path=OgridM5_3@1junction3d_3_2
+TRVDNODE01 instance 2 duplicate of index at port 6 : solid index Data_Path=p5v6@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_3@1junction3d_3_2
+TRVDNODE01 instance 2 [4] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_4@1junction3d_3_2
+TRVDNODE01 instance 2 [5] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_5@1junction3d_3_2
+TRVDNODE01 instance 2 [6] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_6@1junction3d_3_2
+TRVDNODE01 instance 2 [7] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_7@1junction3d_3_2
+TRVDNODE01 instance 2 [8] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_8@1junction3d_3_2
+TRVDNODE01 instance 2 [9] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_9@1junction3d_3_2
+TRVDNODE01 instance 2 [1] absolute acceleration at port 5 - Ground frame [m/s/s] Data_Path=a5R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute acceleration at port 5 - Ground frame [m/s/s] Data_Path=a5R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute acceleration at port 5 - Ground frame [m/s/s] Data_Path=a5R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p5v9_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p5v9_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p5v9_3@1junction3d_3_2
+TRVDENGMOUNT02 instance 2 [1] sign reversed duplicate of port 2 - force applied by the mount - Ground frame [N] Data_Path=f1bodyR0_1@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [2] sign reversed duplicate of port 2 - force applied by the mount - Ground frame [N] Data_Path=f1bodyR0_2@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [3] sign reversed duplicate of port 2 - force applied by the mount - Ground frame [N] Data_Path=f1bodyR0_3@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [1] sign reversed duplicate of port 2 - torque applied by the mount (always zero) - Ground frame [Nm] Data_Path=T1bodyR0_1@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [2] sign reversed duplicate of port 2 - torque applied by the mount (always zero) - Ground frame [Nm] Data_Path=T1bodyR0_2@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [3] sign reversed duplicate of port 2 - torque applied by the mount (always zero) - Ground frame [Nm] Data_Path=T1bodyR0_3@engmount3dmodel_3
+TRVDNODE01 instance 1 [1] absolute velocity at port 5 - Ground frame [m/s] Data_Path=v5R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute velocity at port 5 - Ground frame [m/s] Data_Path=v5R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute velocity at port 5 - Ground frame [m/s] Data_Path=v5R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] absolute position at port 5 - Ground frame [m] Data_Path=OM5R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute position at port 5 - Ground frame [m] Data_Path=OM5R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute position at port 5 - Ground frame [m] Data_Path=OM5R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p5v3_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p5v3_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p5v3_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p5v4_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p5v4_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p5v4_3@1junction3d_2
+TRVDNODE01 instance 1 [1] geometrical parameter : location of OgridM5 - solid frame [m] Data_Path=OgridM5_1@1junction3d_2
+TRVDNODE01 instance 1 [2] geometrical parameter : location of OgridM5 - solid frame [m] Data_Path=OgridM5_2@1junction3d_2
+TRVDNODE01 instance 1 [3] geometrical parameter : location of OgridM5 - solid frame [m] Data_Path=OgridM5_3@1junction3d_2
+TRVDNODE01 instance 1 duplicate of index at port 6 : solid index Data_Path=p5v6@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_3@1junction3d_2
+TRVDNODE01 instance 1 [4] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_4@1junction3d_2
+TRVDNODE01 instance 1 [5] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_5@1junction3d_2
+TRVDNODE01 instance 1 [6] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_6@1junction3d_2
+TRVDNODE01 instance 1 [7] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_7@1junction3d_2
+TRVDNODE01 instance 1 [8] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_8@1junction3d_2
+TRVDNODE01 instance 1 [9] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p5v7_9@1junction3d_2
+TRVDNODE01 instance 1 [1] absolute acceleration at port 5 - Ground frame [m/s/s] Data_Path=a5R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute acceleration at port 5 - Ground frame [m/s/s] Data_Path=a5R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute acceleration at port 5 - Ground frame [m/s/s] Data_Path=a5R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p5v9_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p5v9_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p5v9_3@1junction3d_2
+TRVDENGMOUNT02 instance 2 [1] port 2 - force applied by the mount - Ground frame [N] Data_Path=f2engR0_1@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [2] port 2 - force applied by the mount - Ground frame [N] Data_Path=f2engR0_2@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [3] port 2 - force applied by the mount - Ground frame [N] Data_Path=f2engR0_3@engmount3dmodel_3
+HIDDEN [1]
+HIDDEN [2]
+HIDDEN [3]
+TRVDENGMOUNT02 instance 2 [1] spring/damper force - mount frame [N] Data_Path=fmountR4_1@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [2] spring/damper force - mount frame [N] Data_Path=fmountR4_2@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [3] spring/damper force - mount frame [N] Data_Path=fmountR4_3@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [1] stiffness - mount frame [N/m] Data_Path=kstif_1@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [2] stiffness - mount frame [N/m] Data_Path=kstif_2@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [3] stiffness - mount frame [N/m] Data_Path=kstif_3@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [1] damping coefficient - mount frame [N/(m/s)] Data_Path=cdamp_1@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [2] damping coefficient - mount frame [N/(m/s)] Data_Path=cdamp_2@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [3] damping coefficient - mount frame [N/(m/s)] Data_Path=cdamp_3@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [1] damping force - mount frame [N] Data_Path=fdamp_1@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [2] damping force - mount frame [N] Data_Path=fdamp_2@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [3] damping force - mount frame [N] Data_Path=fdamp_3@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [1] compression - mount frame [m] Data_Path=xrelR4_1@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [2] compression - mount frame [m] Data_Path=xrelR4_2@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [3] compression - mount frame [m] Data_Path=xrelR4_3@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [1] compression velocity - mount frame [m/s] Data_Path=vrelR4_1@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [2] compression velocity - mount frame [m/s] Data_Path=vrelR4_2@engmount3dmodel_3
+TRVDENGMOUNT02 instance 2 [3] compression velocity - mount frame [m/s] Data_Path=vrelR4_3@engmount3dmodel_3
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+TRVDNODE01 instance 2 [1] absolute velocity at port 1 - Ground frame [m/s] Data_Path=v1R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute velocity at port 1 - Ground frame [m/s] Data_Path=v1R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute velocity at port 1 - Ground frame [m/s] Data_Path=v1R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] absolute position at port 1 - Ground frame [m] Data_Path=OM1R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute position at port 1 - Ground frame [m] Data_Path=OM1R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute position at port 1 - Ground frame [m] Data_Path=OM1R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p1v3_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p1v3_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p1v3_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p1v4_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p1v4_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p1v4_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] geometrical parameter : location of OgridM1 - solid frame [m] Data_Path=OgridM1_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] geometrical parameter : location of OgridM1 - solid frame [m] Data_Path=OgridM1_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] geometrical parameter : location of OgridM1 - solid frame [m] Data_Path=OgridM1_3@1junction3d_3_2
+TRVDNODE01 instance 2 duplicate of index at port 6 : solid index Data_Path=p1v6@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_3@1junction3d_3_2
+TRVDNODE01 instance 2 [4] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_4@1junction3d_3_2
+TRVDNODE01 instance 2 [5] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_5@1junction3d_3_2
+TRVDNODE01 instance 2 [6] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_6@1junction3d_3_2
+TRVDNODE01 instance 2 [7] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_7@1junction3d_3_2
+TRVDNODE01 instance 2 [8] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_8@1junction3d_3_2
+TRVDNODE01 instance 2 [9] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_9@1junction3d_3_2
+TRVDNODE01 instance 2 [1] absolute acceleration at port 1 - Ground frame [m/s/s] Data_Path=a1R0_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] absolute acceleration at port 1 - Ground frame [m/s/s] Data_Path=a1R0_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] absolute acceleration at port 1 - Ground frame [m/s/s] Data_Path=a1R0_3@1junction3d_3_2
+TRVDNODE01 instance 2 [1] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p1v9_1@1junction3d_3_2
+TRVDNODE01 instance 2 [2] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p1v9_2@1junction3d_3_2
+TRVDNODE01 instance 2 [3] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p1v9_3@1junction3d_3_2
+TRVDENGMOUNT02 instance 3 [1] sign reversed duplicate of port 2 - force applied by the mount - Ground frame [N] Data_Path=f1bodyR0_1@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [2] sign reversed duplicate of port 2 - force applied by the mount - Ground frame [N] Data_Path=f1bodyR0_2@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [3] sign reversed duplicate of port 2 - force applied by the mount - Ground frame [N] Data_Path=f1bodyR0_3@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [1] sign reversed duplicate of port 2 - torque applied by the mount (always zero) - Ground frame [Nm] Data_Path=T1bodyR0_1@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [2] sign reversed duplicate of port 2 - torque applied by the mount (always zero) - Ground frame [Nm] Data_Path=T1bodyR0_2@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [3] sign reversed duplicate of port 2 - torque applied by the mount (always zero) - Ground frame [Nm] Data_Path=T1bodyR0_3@engmount3dmodel_1
+TRVDNODE01 instance 1 [1] absolute velocity at port 1 - Ground frame [m/s] Data_Path=v1R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute velocity at port 1 - Ground frame [m/s] Data_Path=v1R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute velocity at port 1 - Ground frame [m/s] Data_Path=v1R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] absolute position at port 1 - Ground frame [m] Data_Path=OM1R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute position at port 1 - Ground frame [m] Data_Path=OM1R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute position at port 1 - Ground frame [m] Data_Path=OM1R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p1v3_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p1v3_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p1v3_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p1v4_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p1v4_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p1v4_3@1junction3d_2
+TRVDNODE01 instance 1 [1] geometrical parameter : location of OgridM1 - solid frame [m] Data_Path=OgridM1_1@1junction3d_2
+TRVDNODE01 instance 1 [2] geometrical parameter : location of OgridM1 - solid frame [m] Data_Path=OgridM1_2@1junction3d_2
+TRVDNODE01 instance 1 [3] geometrical parameter : location of OgridM1 - solid frame [m] Data_Path=OgridM1_3@1junction3d_2
+TRVDNODE01 instance 1 duplicate of index at port 6 : solid index Data_Path=p1v6@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_3@1junction3d_2
+TRVDNODE01 instance 1 [4] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_4@1junction3d_2
+TRVDNODE01 instance 1 [5] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_5@1junction3d_2
+TRVDNODE01 instance 1 [6] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_6@1junction3d_2
+TRVDNODE01 instance 1 [7] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_7@1junction3d_2
+TRVDNODE01 instance 1 [8] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_8@1junction3d_2
+TRVDNODE01 instance 1 [9] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p1v7_9@1junction3d_2
+TRVDNODE01 instance 1 [1] absolute acceleration at port 1 - Ground frame [m/s/s] Data_Path=a1R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute acceleration at port 1 - Ground frame [m/s/s] Data_Path=a1R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute acceleration at port 1 - Ground frame [m/s/s] Data_Path=a1R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p1v9_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p1v9_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p1v9_3@1junction3d_2
+TRVDENGMOUNT02 instance 3 [1] port 2 - force applied by the mount - Ground frame [N] Data_Path=f2engR0_1@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [2] port 2 - force applied by the mount - Ground frame [N] Data_Path=f2engR0_2@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [3] port 2 - force applied by the mount - Ground frame [N] Data_Path=f2engR0_3@engmount3dmodel_1
+HIDDEN [1]
+HIDDEN [2]
+HIDDEN [3]
+TRVDENGMOUNT02 instance 3 [1] spring/damper force - mount frame [N] Data_Path=fmountR4_1@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [2] spring/damper force - mount frame [N] Data_Path=fmountR4_2@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [3] spring/damper force - mount frame [N] Data_Path=fmountR4_3@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [1] stiffness - mount frame [N/m] Data_Path=kstif_1@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [2] stiffness - mount frame [N/m] Data_Path=kstif_2@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [3] stiffness - mount frame [N/m] Data_Path=kstif_3@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [1] damping coefficient - mount frame [N/(m/s)] Data_Path=cdamp_1@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [2] damping coefficient - mount frame [N/(m/s)] Data_Path=cdamp_2@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [3] damping coefficient - mount frame [N/(m/s)] Data_Path=cdamp_3@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [1] damping force - mount frame [N] Data_Path=fdamp_1@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [2] damping force - mount frame [N] Data_Path=fdamp_2@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [3] damping force - mount frame [N] Data_Path=fdamp_3@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [1] compression - mount frame [m] Data_Path=xrelR4_1@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [2] compression - mount frame [m] Data_Path=xrelR4_2@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [3] compression - mount frame [m] Data_Path=xrelR4_3@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [1] compression velocity - mount frame [m/s] Data_Path=vrelR4_1@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [2] compression velocity - mount frame [m/s] Data_Path=vrelR4_2@engmount3dmodel_1
+TRVDENGMOUNT02 instance 3 [3] compression velocity - mount frame [m/s] Data_Path=vrelR4_3@engmount3dmodel_1
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+TRVDNODE01 instance 1 [1] absolute velocity at port 4 - Ground frame [m/s] Data_Path=v4R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute velocity at port 4 - Ground frame [m/s] Data_Path=v4R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute velocity at port 4 - Ground frame [m/s] Data_Path=v4R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] absolute position at port 4 - Ground frame [m] Data_Path=OM4R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute position at port 4 - Ground frame [m] Data_Path=OM4R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute position at port 4 - Ground frame [m] Data_Path=OM4R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p4v3_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p4v3_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri [degree/s] Data_Path=p4v3_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p4v4_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p4v4_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=p4v4_3@1junction3d_2
+TRVDNODE01 instance 1 [1] geometrical parameter : location of OgridM4 - solid frame [m] Data_Path=OgridM4_1@1junction3d_2
+TRVDNODE01 instance 1 [2] geometrical parameter : location of OgridM4 - solid frame [m] Data_Path=OgridM4_2@1junction3d_2
+TRVDNODE01 instance 1 [3] geometrical parameter : location of OgridM4 - solid frame [m] Data_Path=OgridM4_3@1junction3d_2
+TRVDNODE01 instance 1 duplicate of index at port 6 : solid index Data_Path=p4v6@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_3@1junction3d_2
+TRVDNODE01 instance 1 [4] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_4@1junction3d_2
+TRVDNODE01 instance 1 [5] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_5@1junction3d_2
+TRVDNODE01 instance 1 [6] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_6@1junction3d_2
+TRVDNODE01 instance 1 [7] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_7@1junction3d_2
+TRVDNODE01 instance 1 [8] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_8@1junction3d_2
+TRVDNODE01 instance 1 [9] duplicate of frame change matrix (Ri/R0) = R0 -> Ri Data_Path=p4v7_9@1junction3d_2
+TRVDNODE01 instance 1 [1] absolute acceleration at port 4 - Ground frame [m/s/s] Data_Path=a4R0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] absolute acceleration at port 4 - Ground frame [m/s/s] Data_Path=a4R0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] absolute acceleration at port 4 - Ground frame [m/s/s] Data_Path=a4R0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p4v9_1@1junction3d_2
+TRVDNODE01 instance 1 [2] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p4v9_2@1junction3d_2
+TRVDNODE01 instance 1 [3] duplicate of absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri [rad/s/s] Data_Path=p4v9_3@1junction3d_2
+VDSRF00 instance 4 [1] force (always zero) [N] Data_Path=fzero_1@zeroforcesource_2_2_2
+VDSRF00 instance 4 [2] force (always zero) [N] Data_Path=fzero_2@zeroforcesource_2_2_2
+VDSRF00 instance 4 [3] force (always zero) [N] Data_Path=fzero_3@zeroforcesource_2_2_2
+VDSRF00 instance 4 [1] torque (always zero) [Nm] Data_Path=tzero_1@zeroforcesource_2_2_2
+VDSRF00 instance 4 [2] torque (always zero) [Nm] Data_Path=tzero_2@zeroforcesource_2_2_2
+VDSRF00 instance 4 [3] torque (always zero) [Nm] Data_Path=tzero_3@zeroforcesource_2_2_2
+TRVDENG003 instance 1 [1] absolute velocity of engine center of gravity - Ground frame (R0) [m/s] Data_Path=vGER0_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] absolute velocity of engine center of gravity - Ground frame (R0) [m/s] Data_Path=vGER0_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] absolute velocity of engine center of gravity - Ground frame (R0) [m/s] Data_Path=vGER0_3@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [1] absolute position of center of gravity - Ground frame (R0) [m] Data_Path=OGER0_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] absolute position of center of gravity - Ground frame (R0) [m] Data_Path=OGER0_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] absolute position of center of gravity - Ground frame (R0) [m] Data_Path=OGER0_3@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [1] engine rotary velocity (R4 vs  R0) - engine frame (R4) - OmegaR4/R0|R4 [degree/s] Data_Path=omegE_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] engine rotary velocity (R4 vs  R0) - engine frame (R4) - OmegaR4/R0|R4 [degree/s] Data_Path=omegE_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] engine rotary velocity (R4 vs  R0) - engine frame (R4) - OmegaR4/R0|R4 [degree/s] Data_Path=omegE_3@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [1] engine Euler angle (motion R4 vs R0 ) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=EulerE_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] engine Euler angle (motion R4 vs R0 ) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=EulerE_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] engine Euler angle (motion R4 vs R0 ) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=EulerE_3@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [1] geometrical parameter : Location of engine center of gravity - engine frame (R4) - ( fixed variable ) [m] Data_Path=OgridGE_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] geometrical parameter : Location of engine center of gravity - engine frame (R4) - ( fixed variable ) [m] Data_Path=OgridGE_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] geometrical parameter : Location of engine center of gravity - engine frame (R4) - ( fixed variable ) [m] Data_Path=OgridGE_3@component_10.engine3dbloc_2
+HIDDEN
+HIDDEN [1]
+HIDDEN [2]
+HIDDEN [3]
+HIDDEN [4]
+HIDDEN [5]
+HIDDEN [6]
+HIDDEN [7]
+HIDDEN [8]
+HIDDEN [9]
+TRVDENG003 instance 1 [1] absolute acceleration of engine center of gravity GE - Ground frame (R0) - A(GE)_R4/R0|R0 [m/s/s] Data_Path=aGER0_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] absolute acceleration of engine center of gravity GE - Ground frame (R0) - A(GE)_R4/R0|R0 [m/s/s] Data_Path=aGER0_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] absolute acceleration of engine center of gravity GE - Ground frame (R0) - A(GE)_R4/R0|R0 [m/s/s] Data_Path=aGER0_3@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [1] absolute angular acceleration - engine frame (R4) - dOmegaR4/R0|R4 [rad/s/s] Data_Path=domegEngine_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] absolute angular acceleration - engine frame (R4) - dOmegaR4/R0|R4 [rad/s/s] Data_Path=domegEngine_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] absolute angular acceleration - engine frame (R4) - dOmegaR4/R0|R4 [rad/s/s] Data_Path=domegEngine_3@component_10.engine3dbloc_2
+TRVDNODE01 instance 1 [1] total force applied at port 6 - Ground frame [N] Data_Path=f6totR0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] total force applied at port 6 - Ground frame [N] Data_Path=f6totR0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] total force applied at port 6 - Ground frame [N] Data_Path=f6totR0_3@1junction3d_2
+TRVDNODE01 instance 1 [1] total torque applied at port 6 - Ground frame [Nm] Data_Path=t6totR0_1@1junction3d_2
+TRVDNODE01 instance 1 [2] total torque applied at port 6 - Ground frame [Nm] Data_Path=t6totR0_2@1junction3d_2
+TRVDNODE01 instance 1 [3] total torque applied at port 6 - Ground frame [Nm] Data_Path=t6totR0_3@1junction3d_2
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+SPLT0 instance 10 duplicate of input to junction Data_Path=out1@control04_2_2_3_3_3
+SPLT0 instance 10 duplicate of input to junction Data_Path=out2@control04_2_2_3_3_3
+SPLT0 instance 11 duplicate of input to junction Data_Path=out1@control04_2_2_3_3_2_2
+SPLT0 instance 12 duplicate of input to junction Data_Path=out1@control04_2_2_2_2_2_2
+SPLT0 instance 12 duplicate of input to junction Data_Path=out2@control04_2_2_2_2_2_2
+JUN3P instance 3 output from summing junction Data_Path=output@sum_2
+GA00 instance 5 output from gain Data_Path=output@elect01_2_2_2_2_3_2
+FX00 instance 2 function of input x Data_Path=fofx@fofx_2
+GA00 instance 5 value of gain - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@elect01_2_2_2_2_3_2
+SPLT0 instance 14 duplicate of input to junction Data_Path=out2@control04_2_2_3_3_2_2_2
+MUL00 instance 5 multiplied signal at port 2 Data_Path=outp@control22_6_2_2
+SPLT0 instance 13 duplicate of input to junction Data_Path=out1@control04_2_2_3_3_3_2
+SPLT0 instance 13 duplicate of input to junction Data_Path=out2@control04_2_2_3_3_3_2
+SPLT0 instance 14 duplicate of input to junction Data_Path=out1@control04_2_2_3_3_2_2_2
+SPLT0 instance 15 duplicate of input to junction Data_Path=out1@control04_2_2_2_2_2_2_2
+SPLT0 instance 15 duplicate of input to junction Data_Path=out2@control04_2_2_2_2_2_2_2
+JUN3P instance 4 output from summing junction Data_Path=output@sum_3
+GA00 instance 6 output from gain Data_Path=output@elect01_2_2_2_2_3_3
+FX00 instance 1 function of input x Data_Path=fofx@fofx
+GA00 instance 6 value of gain - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@elect01_2_2_2_2_3_3
+SPLT0 instance 17 duplicate of input to junction Data_Path=out2@control04_2_2_3_3_2_2_3
+MUL00 instance 6 multiplied signal at port 2 Data_Path=outp@control22_6_2_3
+SPLT0 instance 16 duplicate of input to junction Data_Path=out1@control04_2_2_3_3_3_3
+SPLT0 instance 16 duplicate of input to junction Data_Path=out2@control04_2_2_3_3_3_3
+SPLT0 instance 17 duplicate of input to junction Data_Path=out1@control04_2_2_3_3_2_2_3
+SPLT0 instance 18 duplicate of input to junction Data_Path=out1@control04_2_2_2_2_2_2_3
+SPLT0 instance 18 duplicate of input to junction Data_Path=out2@control04_2_2_2_2_2_2_3
+JUN3P instance 5 output from summing junction Data_Path=output@sum_4
+CONS00 instance 3 output Data_Path=out@constant_2_5_2_2
+CONS00 instance 3 constant value - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@constant_2_5_2_2
+CONS00 instance 4 output Data_Path=out@constant_2_5_2_3
+CONS00 instance 4 constant value - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@constant_2_5_2_3
+CONS00 instance 5 output Data_Path=out@constant_2_5_2_4
+CONS00 instance 5 constant value - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@constant_2_5_2_4
+CONS00 instance 6 output Data_Path=out@constant_2_5_2_5
+CONS00 instance 6 constant value - Linked variable Is_Linked_Variable=1 Data_Path=k0GEN@constant_2_5_2_5
+SIGFXA01 instance 1 output signal Data_Path=u@dynamic_x_table_1
+SIGFXA01 instance 2 output signal Data_Path=u@dynamic_x_table_2
+SIGFXA01 instance 3 output signal Data_Path=u@dynamic_x_table_3
+SIGFXA01 instance 4 output signal Data_Path=u@dynamic_x_table_4
+SIGFXA01 instance 5 output signal Data_Path=u@dynamic_x_table_5
+SIGFXA01 instance 6 output signal Data_Path=u@dynamic_x_table_6
+MECRSS0B instance 1 signal output Data_Path=wsig@rotaryspeedsensor_2
+UD00 instance 2 user defined duty cycle output Data_Path=output@signal03_3_2
+RCON00 instance 1 duplicate of velocity at port 3 [rev/min] Data_Path=v1@rconnector
+TORQC instance 1 torque output [Nm] Data_Path=torque@torquecon_2
+RSD00 instance 1 torque at port 1 [Nm] Data_Path=to1@rotaryspringdamper
+RCON00 instance 1 duplicate of velocity at port 3 [rev/min] Data_Path=v2@rconnector
+MECRSS0B instance 1 angular velocity at port 3 [rev/min] Data_Path=wdup@rotaryspeedsensor_2
+RCON00 instance 1 total torque port 3 [Nm] Data_Path=torq3@rconnector
+TR0ROTJUNC3D instance 1 relative rotary velocity at port 3 [rev/min] Data_Path=w3@junction0rot_3D
+RSD00 instance 1 duplicate of torque at port 1 [Nm] Data_Path=t2@rotaryspringdamper
+RSD00 instance 1 relative angular displacement [degree] Data_Path=are@rotaryspringdamper
+HIDDEN
+HIDDEN
+RSD00 instance 1 spring torque [Nm] Data_Path=tspring@rotaryspringdamper
+RSD00 instance 1 damper torque [Nm] Data_Path=tdamper@rotaryspringdamper
+MECRL0 instance 1 shaft speed at port 2 [rev/min] Data_Path=w@rotaryload2
+MECFR2R0A instance 1 friction torque [Nm] Data_Path=torq1@2parts_rot_friction_new
+UD00 instance 3 user defined duty cycle output Data_Path=output@signal03_3_2_2
+W000 instance 1 angular speed (always zero) [rev/min] Data_Path=wzero@zeroomegasource
+W000 instance 1 fixed angle [degree] Data_Path=theta@zeroomegasource
+MECFR2R0A instance 1 duplicate of friction torque [Nm] Data_Path=torq3@2parts_rot_friction_new
+HIDDEN
+TR0ROTJUNC3D instance 1 torque at port 1 [Nm] Data_Path=torq1@junction0rot_3D
+MECRL0 instance 1 sign reversed duplicate of shaft speed at port 2 [rev/min] Data_Path=wdup@rotaryload2
+MECRL0 instance 1 rotary acceleration [rad/s/s] Data_Path=accel@rotaryload2
+MECRL0 instance 1 viscous friction torque [Nm] Data_Path=Tvisc@rotaryload2
+HIDDEN
+HIDDEN
+TRCS04 instance 1 output rotary velocity at port 1 [rev/min] Data_Path=N1@dynamic_2Dpistons
+T000 instance 1 torque (always zero) [Nm] Data_Path=tzero@zerotorquesource_2_2_2
+MECADS0B instance 1 angular velocity at port 3 [rev/min] Data_Path=wdup@anglesensor_2_2_2
+MECRSS0B instance 1 torque at port 1 [Nm] Data_Path=tordup@rotaryspeedsensor_2
+TRCS04 instance 1 output rotary velocity at port 3 [rev/min] Data_Path=N3@dynamic_2Dpistons
+MECADS0B instance 1 torque at port 1 [Nm] Data_Path=tordup@anglesensor_2_2_2
+MECADS0B instance 1 signal output Data_Path=theta@anglesensor_2_2_2
+MECADS0B instance 1 angular displacement [degree] Data_Path=phi@anglesensor_2_2_2
+SIGTRANS0 instance 1 transmitter output Data_Path=transout@transmitter_6
+JUN3P instance 11 output from summing junction Data_Path=output@sum_10
+SIGTRANS0 instance 2 transmitter output Data_Path=transout@transmitter_7_2_2
+SIGTRANS0 instance 3 transmitter output Data_Path=transout@transmitter_4
+JUN3P instance 10 output from summing junction Data_Path=output@sum_9
+SIGTRANS0 instance 4 transmitter output Data_Path=transout@transmitter_3
+JUN3P instance 9 output from summing junction Data_Path=output@sum_8
+SIGTRANS0 instance 5 transmitter output Data_Path=transout@transmitter_5
+JUN3P instance 8 output from summing junction Data_Path=output@sum_7
+SIGRECEI0 instance 2 receiver output Data_Path=output@receiver_5
+SIGRECEI0 instance 3 receiver output Data_Path=output@receiver_2_2
+SIGRECEI0 instance 4 receiver output Data_Path=output@receiver_3_2_2_2_2
+SIGRECEI0 instance 5 receiver output Data_Path=output@receiver_3_2_3
+SIGTRANS0 instance 6 transmitter output Data_Path=transout@transmitter_5_2
+SIGRECEI0 instance 6 receiver output Data_Path=output@receiver_3_2_3_2
+SIGTRANS0 instance 7 transmitter output Data_Path=transout@transmitter_5_3
+SIGRECEI0 instance 7 receiver output Data_Path=output@receiver_3_2_2_2_2_2
+JUN3P instance 7 output from summing junction Data_Path=output@sum_6
+JUN3P instance 6 output from summing junction Data_Path=output@sum_5
+HIDDEN
+HIDDEN
+DYNMUX2 instance 1 output 1 at port 1 Data_Path=output1@dynamic_mux2
+DYNMUX2 instance 1 output 2 at port 1 Data_Path=output2@dynamic_mux2
+DYNMUX2 instance 1 output 3 at port 1 Data_Path=output3@dynamic_mux2
+DYNMUX2 instance 1 output 4 at port 1 Data_Path=output4@dynamic_mux2
+DYNMUX2 instance 1 output 5 at port 1 Data_Path=output5@dynamic_mux2
+DYNMUX2 instance 1 output 6 at port 1 Data_Path=output6@dynamic_mux2
+DYNTRVDNODE instance 1 [1] absolute velocity (Ground frame) at port 3 [m/s] Data_Path=p3__vR0_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] absolute velocity (Ground frame) at port 3 [m/s] Data_Path=p3__vR0_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] absolute velocity (Ground frame) at port 3 [m/s] Data_Path=p3__vR0_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] absolute position (Ground frame) at port 3 [m] Data_Path=p3__OMR0_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] absolute position (Ground frame) at port 3 [m] Data_Path=p3__OMR0_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] absolute position (Ground frame) at port 3 [m] Data_Path=p3__OMR0_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri at port 3 [degree/s] Data_Path=p3__p2v3_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri at port 3 [degree/s] Data_Path=p3__p2v3_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri at port 3 [degree/s] Data_Path=p3__p2v3_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw at port 3 [degree] Data_Path=p3__p2v4_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw at port 3 [degree] Data_Path=p3__p2v4_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw at port 3 [degree] Data_Path=p3__p2v4_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] geometrical parameter : location of OgridM - solid frame at port 3 [m] Data_Path=p3__OgridM_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] geometrical parameter : location of OgridM - solid frame at port 3 [m] Data_Path=p3__OgridM_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] geometrical parameter : location of OgridM - solid frame at port 3 [m] Data_Path=p3__OgridM_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 index at port 3 Data_Path=p3__p2v6@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] frame change matrix (Ri/R0) = R0 -> Ri at port 3 Data_Path=p3__p2v7_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] frame change matrix (Ri/R0) = R0 -> Ri at port 3 Data_Path=p3__p2v7_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] frame change matrix (Ri/R0) = R0 -> Ri at port 3 Data_Path=p3__p2v7_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [4] frame change matrix (Ri/R0) = R0 -> Ri at port 3 Data_Path=p3__p2v7_4@dynamic_trvdnode
+DYNTRVDNODE instance 1 [5] frame change matrix (Ri/R0) = R0 -> Ri at port 3 Data_Path=p3__p2v7_5@dynamic_trvdnode
+DYNTRVDNODE instance 1 [6] frame change matrix (Ri/R0) = R0 -> Ri at port 3 Data_Path=p3__p2v7_6@dynamic_trvdnode
+DYNTRVDNODE instance 1 [7] frame change matrix (Ri/R0) = R0 -> Ri at port 3 Data_Path=p3__p2v7_7@dynamic_trvdnode
+DYNTRVDNODE instance 1 [8] frame change matrix (Ri/R0) = R0 -> Ri at port 3 Data_Path=p3__p2v7_8@dynamic_trvdnode
+DYNTRVDNODE instance 1 [9] frame change matrix (Ri/R0) = R0 -> Ri at port 3 Data_Path=p3__p2v7_9@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] absolute acceleration (Ground frame) at port 3 [m/s/s] Data_Path=p3__aR0_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] absolute acceleration (Ground frame) at port 3 [m/s/s] Data_Path=p3__aR0_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] absolute acceleration (Ground frame) at port 3 [m/s/s] Data_Path=p3__aR0_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri at port 3 [rad/s/s] Data_Path=p3__p2v9_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri at port 3 [rad/s/s] Data_Path=p3__p2v9_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri at port 3 [rad/s/s] Data_Path=p3__p2v9_3@dynamic_trvdnode
+TRCS04 instance 1 [1] port 4 - force applied to the engine block - Ground frame [N] Data_Path=FtotOR0_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] port 4 - force applied to the engine block - Ground frame [N] Data_Path=FtotOR0_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] port 4 - force applied to the engine block - Ground frame [N] Data_Path=FtotOR0_3@dynamic_2Dpistons
+TRCS04 instance 1 [1] port 4 - torque applied to the engine block - Ground frame [Nm] Data_Path=MtotOR0_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] port 4 - torque applied to the engine block - Ground frame [Nm] Data_Path=MtotOR0_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] port 4 - torque applied to the engine block - Ground frame [Nm] Data_Path=MtotOR0_3@dynamic_2Dpistons
+TRCS04 instance 1 rotary velocity of the crankshaft (engine block frame) [rev/min] Data_Path=Nvel@dynamic_2Dpistons
+TRCS04 instance 1 angular displacement of the crankshaft (engine block frame) [degree] Data_Path=angle@dynamic_2Dpistons
+TRCS04 instance 1 [1] piston displacement (piston frame) [mm] Data_Path=x_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] piston displacement (piston frame) [mm] Data_Path=x_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] piston displacement (piston frame) [mm] Data_Path=x_3@dynamic_2Dpistons
+TRCS04 instance 1 [4] piston displacement (piston frame) [mm] Data_Path=x_4@dynamic_2Dpistons
+TRCS04 instance 1 [5] piston displacement (piston frame) [mm] Data_Path=x_5@dynamic_2Dpistons
+TRCS04 instance 1 [6] piston displacement (piston frame) [mm] Data_Path=x_6@dynamic_2Dpistons
+TRCS04 instance 1 [1] piston velocity (piston frame) [m/s] Data_Path=Vrel_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] piston velocity (piston frame) [m/s] Data_Path=Vrel_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] piston velocity (piston frame) [m/s] Data_Path=Vrel_3@dynamic_2Dpistons
+TRCS04 instance 1 [4] piston velocity (piston frame) [m/s] Data_Path=Vrel_4@dynamic_2Dpistons
+TRCS04 instance 1 [5] piston velocity (piston frame) [m/s] Data_Path=Vrel_5@dynamic_2Dpistons
+TRCS04 instance 1 [6] piston velocity (piston frame) [m/s] Data_Path=Vrel_6@dynamic_2Dpistons
+TRCS04 instance 1 total bearing friction torque [Nm] Data_Path=Tfbearing@dynamic_2Dpistons
+TRCS04 instance 1 [1] inertia resulting torque [Nm] Data_Path=Tinertia_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] inertia resulting torque [Nm] Data_Path=Tinertia_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] inertia resulting torque [Nm] Data_Path=Tinertia_3@dynamic_2Dpistons
+TRCS04 instance 1 [4] inertia resulting torque [Nm] Data_Path=Tinertia_4@dynamic_2Dpistons
+TRCS04 instance 1 [5] inertia resulting torque [Nm] Data_Path=Tinertia_5@dynamic_2Dpistons
+TRCS04 instance 1 [6] inertia resulting torque [Nm] Data_Path=Tinertia_6@dynamic_2Dpistons
+TRCS04 instance 1 [1] pressure resulting torque [Nm] Data_Path=Tpressure_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] pressure resulting torque [Nm] Data_Path=Tpressure_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] pressure resulting torque [Nm] Data_Path=Tpressure_3@dynamic_2Dpistons
+TRCS04 instance 1 [4] pressure resulting torque [Nm] Data_Path=Tpressure_4@dynamic_2Dpistons
+TRCS04 instance 1 [5] pressure resulting torque [Nm] Data_Path=Tpressure_5@dynamic_2Dpistons
+TRCS04 instance 1 [6] pressure resulting torque [Nm] Data_Path=Tpressure_6@dynamic_2Dpistons
+TRCS04 instance 1 [1] piston friction force (piston frame) [N] Data_Path=Ffpiston_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] piston friction force (piston frame) [N] Data_Path=Ffpiston_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] piston friction force (piston frame) [N] Data_Path=Ffpiston_3@dynamic_2Dpistons
+TRCS04 instance 1 [4] piston friction force (piston frame) [N] Data_Path=Ffpiston_4@dynamic_2Dpistons
+TRCS04 instance 1 [5] piston friction force (piston frame) [N] Data_Path=Ffpiston_5@dynamic_2Dpistons
+TRCS04 instance 1 [6] piston friction force (piston frame) [N] Data_Path=Ffpiston_6@dynamic_2Dpistons
+TRCS04 instance 1 [1] piston friction resulting torque [Nm] Data_Path=Tfpiston_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] piston friction resulting torque [Nm] Data_Path=Tfpiston_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] piston friction resulting torque [Nm] Data_Path=Tfpiston_3@dynamic_2Dpistons
+TRCS04 instance 1 [4] piston friction resulting torque [Nm] Data_Path=Tfpiston_4@dynamic_2Dpistons
+TRCS04 instance 1 [5] piston friction resulting torque [Nm] Data_Path=Tfpiston_5@dynamic_2Dpistons
+TRCS04 instance 1 [6] piston friction resulting torque [Nm] Data_Path=Tfpiston_6@dynamic_2Dpistons
+TRCS04 instance 1 [1] x-force applied by the crankshaft on the engine block (piston frame) [N] Data_Path=Fcrankx_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] x-force applied by the crankshaft on the engine block (piston frame) [N] Data_Path=Fcrankx_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] x-force applied by the crankshaft on the engine block (piston frame) [N] Data_Path=Fcrankx_3@dynamic_2Dpistons
+TRCS04 instance 1 [4] x-force applied by the crankshaft on the engine block (piston frame) [N] Data_Path=Fcrankx_4@dynamic_2Dpistons
+TRCS04 instance 1 [5] x-force applied by the crankshaft on the engine block (piston frame) [N] Data_Path=Fcrankx_5@dynamic_2Dpistons
+TRCS04 instance 1 [6] x-force applied by the crankshaft on the engine block (piston frame) [N] Data_Path=Fcrankx_6@dynamic_2Dpistons
+TRCS04 instance 1 [1] y-force applied by the crankshaft on the engine block (piston frame) [N] Data_Path=Fcranky_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] y-force applied by the crankshaft on the engine block (piston frame) [N] Data_Path=Fcranky_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] y-force applied by the crankshaft on the engine block (piston frame) [N] Data_Path=Fcranky_3@dynamic_2Dpistons
+TRCS04 instance 1 [4] y-force applied by the crankshaft on the engine block (piston frame) [N] Data_Path=Fcranky_4@dynamic_2Dpistons
+TRCS04 instance 1 [5] y-force applied by the crankshaft on the engine block (piston frame) [N] Data_Path=Fcranky_5@dynamic_2Dpistons
+TRCS04 instance 1 [6] y-force applied by the crankshaft on the engine block (piston frame) [N] Data_Path=Fcranky_6@dynamic_2Dpistons
+TRCS04 instance 1 [1] x-force applied by the connecting rod on the crankshaft (piston frame) [N] Data_Path=Fconx_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] x-force applied by the connecting rod on the crankshaft (piston frame) [N] Data_Path=Fconx_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] x-force applied by the connecting rod on the crankshaft (piston frame) [N] Data_Path=Fconx_3@dynamic_2Dpistons
+TRCS04 instance 1 [4] x-force applied by the connecting rod on the crankshaft (piston frame) [N] Data_Path=Fconx_4@dynamic_2Dpistons
+TRCS04 instance 1 [5] x-force applied by the connecting rod on the crankshaft (piston frame) [N] Data_Path=Fconx_5@dynamic_2Dpistons
+TRCS04 instance 1 [6] x-force applied by the connecting rod on the crankshaft (piston frame) [N] Data_Path=Fconx_6@dynamic_2Dpistons
+TRCS04 instance 1 [1] y-force applied by the connecting rod on the crankshaft (piston frame) [N] Data_Path=Fcony_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] y-force applied by the connecting rod on the crankshaft (piston frame) [N] Data_Path=Fcony_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] y-force applied by the connecting rod on the crankshaft (piston frame) [N] Data_Path=Fcony_3@dynamic_2Dpistons
+TRCS04 instance 1 [4] y-force applied by the connecting rod on the crankshaft (piston frame) [N] Data_Path=Fcony_4@dynamic_2Dpistons
+TRCS04 instance 1 [5] y-force applied by the connecting rod on the crankshaft (piston frame) [N] Data_Path=Fcony_5@dynamic_2Dpistons
+TRCS04 instance 1 [6] y-force applied by the connecting rod on the crankshaft (piston frame) [N] Data_Path=Fcony_6@dynamic_2Dpistons
+TRCS04 instance 1 [1] x-force applied by the piston on the engine block (piston frame) [N] Data_Path=Fpisx_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] x-force applied by the piston on the engine block (piston frame) [N] Data_Path=Fpisx_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] x-force applied by the piston on the engine block (piston frame) [N] Data_Path=Fpisx_3@dynamic_2Dpistons
+TRCS04 instance 1 [4] x-force applied by the piston on the engine block (piston frame) [N] Data_Path=Fpisx_4@dynamic_2Dpistons
+TRCS04 instance 1 [5] x-force applied by the piston on the engine block (piston frame) [N] Data_Path=Fpisx_5@dynamic_2Dpistons
+TRCS04 instance 1 [6] x-force applied by the piston on the engine block (piston frame) [N] Data_Path=Fpisx_6@dynamic_2Dpistons
+TRCS04 instance 1 [1] y-force applied by the piston on the engine block (piston frame) [N] Data_Path=Fpisy_1@dynamic_2Dpistons
+TRCS04 instance 1 [2] y-force applied by the piston on the engine block (piston frame) [N] Data_Path=Fpisy_2@dynamic_2Dpistons
+TRCS04 instance 1 [3] y-force applied by the piston on the engine block (piston frame) [N] Data_Path=Fpisy_3@dynamic_2Dpistons
+TRCS04 instance 1 [4] y-force applied by the piston on the engine block (piston frame) [N] Data_Path=Fpisy_4@dynamic_2Dpistons
+TRCS04 instance 1 [5] y-force applied by the piston on the engine block (piston frame) [N] Data_Path=Fpisy_5@dynamic_2Dpistons
+TRCS04 instance 1 [6] y-force applied by the piston on the engine block (piston frame) [N] Data_Path=Fpisy_6@dynamic_2Dpistons
+HIDDEN
+HIDDEN
+HIDDEN
+TRVDENG003 instance 1 [1] duplicate of absolute velocity of engine center of gravity - Ground frame (R0) [m/s] Data_Path=vGER0d_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] duplicate of absolute velocity of engine center of gravity - Ground frame (R0) [m/s] Data_Path=vGER0d_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] duplicate of absolute velocity of engine center of gravity - Ground frame (R0) [m/s] Data_Path=vGER0d_3@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [1] duplicate of absolute position of center of gravity - Ground frame (R0) [m] Data_Path=OGER0d_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] duplicate of absolute position of center of gravity - Ground frame (R0) [m] Data_Path=OGER0d_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] duplicate of absolute position of center of gravity - Ground frame (R0) [m] Data_Path=OGER0d_3@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [1] duplicate of engine rotary velocity (R4 vs  R0) - engine frame (R4) - OmegaR4/R0|R4 [degree/s] Data_Path=omegEd_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] duplicate of engine rotary velocity (R4 vs  R0) - engine frame (R4) - OmegaR4/R0|R4 [degree/s] Data_Path=omegEd_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] duplicate of engine rotary velocity (R4 vs  R0) - engine frame (R4) - OmegaR4/R0|R4 [degree/s] Data_Path=omegEd_3@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [1] duplicate of engine Euler angle (motion R4 vs R0 ) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=EulerEd_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] duplicate of engine Euler angle (motion R4 vs R0 ) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=EulerEd_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] duplicate of engine Euler angle (motion R4 vs R0 ) - 1 = Roll - 2 = Pitch - 3 = Yaw [degree] Data_Path=EulerEd_3@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [1] duplicate of geometrical parameter : Location of engine center of gravity - engine frame (R4) - ( fixed variable ) [m] Data_Path=OgridGEd_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] duplicate of geometrical parameter : Location of engine center of gravity - engine frame (R4) - ( fixed variable ) [m] Data_Path=OgridGEd_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] duplicate of geometrical parameter : Location of engine center of gravity - engine frame (R4) - ( fixed variable ) [m] Data_Path=OgridGEd_3@component_10.engine3dbloc_2
+TRVDENG003 instance 1 duplicate of index : Engine index Data_Path=EngineIndex1d@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [1] duplicate of frame change matrix (R4/R0) = R0 -> R4 Data_Path=MatrixR0R4d_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] duplicate of frame change matrix (R4/R0) = R0 -> R4 Data_Path=MatrixR0R4d_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] duplicate of frame change matrix (R4/R0) = R0 -> R4 Data_Path=MatrixR0R4d_3@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [4] duplicate of frame change matrix (R4/R0) = R0 -> R4 Data_Path=MatrixR0R4d_4@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [5] duplicate of frame change matrix (R4/R0) = R0 -> R4 Data_Path=MatrixR0R4d_5@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [6] duplicate of frame change matrix (R4/R0) = R0 -> R4 Data_Path=MatrixR0R4d_6@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [7] duplicate of frame change matrix (R4/R0) = R0 -> R4 Data_Path=MatrixR0R4d_7@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [8] duplicate of frame change matrix (R4/R0) = R0 -> R4 Data_Path=MatrixR0R4d_8@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [9] duplicate of frame change matrix (R4/R0) = R0 -> R4 Data_Path=MatrixR0R4d_9@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [1] duplicate of absolute acceleration of engine center of gravity GE - Ground frame (R0) - A(GE)_R4/R0|R0 [m/s/s] Data_Path=aGER0d_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] duplicate of absolute acceleration of engine center of gravity GE - Ground frame (R0) - A(GE)_R4/R0|R0 [m/s/s] Data_Path=aGER0d_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] duplicate of absolute acceleration of engine center of gravity GE - Ground frame (R0) - A(GE)_R4/R0|R0 [m/s/s] Data_Path=aGER0d_3@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [1] duplicate of absolute angular acceleration - engine frame (R4) - dOmegaR4/R0|R4 [rad/s/s] Data_Path=domegEngined_1@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [2] duplicate of absolute angular acceleration - engine frame (R4) - dOmegaR4/R0|R4 [rad/s/s] Data_Path=domegEngined_2@component_10.engine3dbloc_2
+TRVDENG003 instance 1 [3] duplicate of absolute angular acceleration - engine frame (R4) - dOmegaR4/R0|R4 [rad/s/s] Data_Path=domegEngined_3@component_10.engine3dbloc_2
+DYNTRVDNODE instance 1 [1] total force applied at port 1 [N] Data_Path=f1totR0_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] total force applied at port 1 [N] Data_Path=f1totR0_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] total force applied at port 1 [N] Data_Path=f1totR0_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] total torque applied at port 1 [Nm] Data_Path=t1totR0_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] total torque applied at port 1 [Nm] Data_Path=t1totR0_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] total torque applied at port 1 [Nm] Data_Path=t1totR0_3@dynamic_trvdnode
+TR0ROTJUNC3D instance 1 [1] force at port 2 [N] Data_Path=force2R0_1@junction0rot_3D
+TR0ROTJUNC3D instance 1 [2] force at port 2 [N] Data_Path=force2R0_2@junction0rot_3D
+TR0ROTJUNC3D instance 1 [3] force at port 2 [N] Data_Path=force2R0_3@junction0rot_3D
+TR0ROTJUNC3D instance 1 [1] torque at port 2 [Nm] Data_Path=torque2R0_1@junction0rot_3D
+TR0ROTJUNC3D instance 1 [2] torque at port 2 [Nm] Data_Path=torque2R0_2@junction0rot_3D
+TR0ROTJUNC3D instance 1 [3] torque at port 2 [Nm] Data_Path=torque2R0_3@junction0rot_3D
+DYNTRVDNODE instance 1 [1] absolute velocity (Ground frame) at port 2 [m/s] Data_Path=p2__vR0_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] absolute velocity (Ground frame) at port 2 [m/s] Data_Path=p2__vR0_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] absolute velocity (Ground frame) at port 2 [m/s] Data_Path=p2__vR0_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] absolute position (Ground frame) at port 2 [m] Data_Path=p2__OMR0_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] absolute position (Ground frame) at port 2 [m] Data_Path=p2__OMR0_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] absolute position (Ground frame) at port 2 [m] Data_Path=p2__OMR0_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri at port 2 [degree/s] Data_Path=p2__p2v3_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri at port 2 [degree/s] Data_Path=p2__p2v3_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] rotary velocity (Ri vs R0) - solid frame (Ri) : OmegaRi/R0|Ri at port 2 [degree/s] Data_Path=p2__p2v3_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw at port 2 [degree] Data_Path=p2__p2v4_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw at port 2 [degree] Data_Path=p2__p2v4_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] Euler angle (motion Ri vs R0) - 1 = Roll - 2 = Pitch - 3 = Yaw at port 2 [degree] Data_Path=p2__p2v4_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] geometrical parameter : location of OgridM - solid frame at port 2 [m] Data_Path=p2__OgridM_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] geometrical parameter : location of OgridM - solid frame at port 2 [m] Data_Path=p2__OgridM_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] geometrical parameter : location of OgridM - solid frame at port 2 [m] Data_Path=p2__OgridM_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 index at port 2 Data_Path=p2__p2v6@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] frame change matrix (Ri/R0) = R0 -> Ri at port 2 Data_Path=p2__p2v7_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] frame change matrix (Ri/R0) = R0 -> Ri at port 2 Data_Path=p2__p2v7_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] frame change matrix (Ri/R0) = R0 -> Ri at port 2 Data_Path=p2__p2v7_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [4] frame change matrix (Ri/R0) = R0 -> Ri at port 2 Data_Path=p2__p2v7_4@dynamic_trvdnode
+DYNTRVDNODE instance 1 [5] frame change matrix (Ri/R0) = R0 -> Ri at port 2 Data_Path=p2__p2v7_5@dynamic_trvdnode
+DYNTRVDNODE instance 1 [6] frame change matrix (Ri/R0) = R0 -> Ri at port 2 Data_Path=p2__p2v7_6@dynamic_trvdnode
+DYNTRVDNODE instance 1 [7] frame change matrix (Ri/R0) = R0 -> Ri at port 2 Data_Path=p2__p2v7_7@dynamic_trvdnode
+DYNTRVDNODE instance 1 [8] frame change matrix (Ri/R0) = R0 -> Ri at port 2 Data_Path=p2__p2v7_8@dynamic_trvdnode
+DYNTRVDNODE instance 1 [9] frame change matrix (Ri/R0) = R0 -> Ri at port 2 Data_Path=p2__p2v7_9@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] absolute acceleration (Ground frame) at port 2 [m/s/s] Data_Path=p2__aR0_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] absolute acceleration (Ground frame) at port 2 [m/s/s] Data_Path=p2__aR0_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] absolute acceleration (Ground frame) at port 2 [m/s/s] Data_Path=p2__aR0_3@dynamic_trvdnode
+DYNTRVDNODE instance 1 [1] absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri at port 2 [rad/s/s] Data_Path=p2__p2v9_1@dynamic_trvdnode
+DYNTRVDNODE instance 1 [2] absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri at port 2 [rad/s/s] Data_Path=p2__p2v9_2@dynamic_trvdnode
+DYNTRVDNODE instance 1 [3] absolute angular acceleration  (Ri vs R0) - solid frame (Ri) : dOmegaRi/R0|Ri at port 2 [rad/s/s] Data_Path=p2__p2v9_3@dynamic_trvdnode
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
+HIDDEN
