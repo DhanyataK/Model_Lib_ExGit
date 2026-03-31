@@ -4,7 +4,7 @@
  <Submodel autonomousCompilation="False" autonomousRuntime="False" cirPortsOverFramework="1" codeGenVersion="1.0" defaultIcon="component_4" idMax="1" idsReset="0" outputType="0" type="1" unit="0">
   <TextParams>
    <ExposedList>
-    <Exposed exposedVar="filename@dynamic_time_table" origVarName="" subId="1" title="name of ASCII file" varName="filename"/>
+    <Exposed exposedVar="filename@dynamic_time_table" origVarName="" subId="1" title="name of ASCII file" varName="filename" />
    </ExposedList>
   </TextParams>
   <ExposedOrder>
@@ -12,10 +12,10 @@
     <DataPaths>
      <DataPath>filename</DataPath>
     </DataPaths>
-    <Groups/>
+    <Groups />
    </Params>
    <Vars>
-    <Groups/>
+    <Groups />
    </Vars>
   </ExposedOrder>
  </Submodel>

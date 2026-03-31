@@ -3,10 +3,10 @@
 <SUB AME_VERSION="2604" DOC_VERSION="6" HOTFIX="0" MAJ="20261" UPDATE="0">
  <Supercomponent catname="Lib_Data_PS" scSubName="SC_4">
   <PortsMap/>
-  <Circuit ameApplication="AMESim" highestId="76">
+  <Circuit ameApplication="AMESim" highestId="83">
    <Comps>
     <Comp alias="dynamic_time_table" circuitScopeId="3" depth="201" displayName="dynamic_time_table" geometry="1" iconDescription="1D table interpolation u(t)" labelVisible="0" libraryId="sig.dynamic_time_table" name="dynamic_time_table" scaleX="1.000000" scaleY="1.000000" type="0">
-     <Pos x="67" y="67"/>
+     <Pos x="67" y="87"/>
      <LabelPos configured="0" direction="0" x="0" y="0"/>
      <CirCompIcon cirIconIdentity="1" cirPortGraphics="IDxQT1JUUz4KICA8UE9SVCBmYWNlPSIzIiB0eXBlPSJzaWduYWwiIHg9IjQwIiB5PSIxNSI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL2xpYnBvcnRzL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KIDwvUE9SVFM+Cg==" cirPortHidden="0">
       <IconMap data="H4sIAAAAAAACCp1STY+bMBC951eMZg+5EGNDUkIUZ6U99NRKPbS9RixxwFpjI5sC+fcdCNleeoolmJnn+XozPr6OjYFe+aCdlWvB+BqULd1F20quf/38utmvX0+rY+grIE8bDkWjgm4k9vbCTBOYbopKW8XuON69JNZd1x7ieBgGNqTM+SpOOOcx5VlcDqPR9uN/jiLP83i+xc/OULAE4b0I6od3V22UxE7bG4K+SPyme2WMOwtKLZG3I8JtkYO+dLXE7WzUSld1JzHJJ6vXanhzUwBw2HJIcgRH9a7GDRJD6Z0xc6+H0BYlFWy9Csr3Cmke1WkFAMdS+9IooIaMxJfrfBBC590HBbzw+TyATaM75Y0mQXwILqm42LIdabeH5icF43t6YqXb8MhvnVVPJyfEE5KRIDMlfKnRFl39VAEa/PeM7SLBe8FLHgmWRykT9O2ibPqHbCPYlyjbkP6bIqjgMa6m4c1bK/+E7izOQVe2MHhvhpb+HNtREKmU9i4erMdkWjshyYI8+Dpzq5yF1mnb0UNN9pEQbAdpQr1PjjAh2SL3bA9pSsw+bzhLAP5xmV70afUX9h3Pu0cDAAA=" format="svgz/base64"/>
@@ -152,7 +152,7 @@
      </Submodel>
     </Comp>
     <Comp alias="signalsink" catname="sig" circuitScopeId="4" depth="202" displayName="signalsink" geometry="1" iconDescription="general signal sink" labelVisible="0" libraryId="sig.signalsink" name="signalsink" scaleX="1.000000" scaleY="1.000000" type="0">
-     <Pos x="107" y="77"/>
+     <Pos x="107" y="97"/>
      <LabelPos configured="0" direction="0" x="0" y="0"/>
      <CirCompIcon cirIconIdentity="1" cirPortGraphics="IDxQT1JUUz4KICA8UE9SVCBmYWNlPSIyIiB0eXBlPSJzaWduYWwiIHg9IjEiIHk9IjUiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9saWJwb3J0cy9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiA8L1BPUlRTPgo=" cirPortHidden="0">
       <IconMap data="H4sIAAAAAAACCp1RuVLDMBDt+YqdpXATfHEk9kTJDAUVBQXUGWMr9k5kySMJH3/P2gkZCipUaA89vbdP2u7HVkEvrSOjRZCEcQBSl6YiXYvg4/3lbhPsdzdb19fASO3yopWOWoG9rkLVupDaoiYtw3MfzyiBjfddHkXDMITDfWhsHaVxHEfMc4HkoyJ9+guYZFkWLad4nQyTMEX4LJx8s+ZISgr0pCcEqgS+Ui+VMoeEqQXG3YgwXeJAlW8EZnPeSKobfyl6ksOzmeEQQwYZgmGtozKDQFdao9QyZ+66omSxzkonbS+R38LK0s9C6yt9+oscI4bUy1zll/OH5OCo1oXimwCwZVsS2IASqI2WCM5bc2KF23hZP427lry0ijiweW6PCc/Kxjg8hI9cpwKf5mRKz53oLNAZNf1bpDOkPf9eukpgvWJWSFcbgMVTVM8bf+DuG+p4C5w1AgAA" format="svgz/base64"/>
@@ -168,7 +168,7 @@
      </Ports>
     </Comp>
     <Comp alias="timesync" circuitScopeId="1" depth="203" displayName="timesync" geometry="1" iconDescription="time synchronization" labelVisible="0" libraryId="simu.timesync" name="timesync" scaleX="1.000000" scaleY="1.000000" type="0">
-     <Pos x="191" y="156"/>
+     <Pos x="191" y="176"/>
      <LabelPos configured="0" direction="0" x="0" y="0"/>
      <CirCompIcon cirIconIdentity="1" cirPortGraphics="IDxQT1JUUy8+Cg==" cirPortHidden="0">
       <IconMap data="H4sIAAAAAAACCtVWTW/bRhC951csmIMv5Gpnv5e2HKAJeuqhh/RcKNRaZkORAklLsn9931JiIqdCgwDNoYJlkY+zMzszb97y7t1x27B97Ie6a5c3xMUNi23Vret2s7z54+Ovhb95d//mbthvGCzboVxt41Bvl9m+XfNmO/B6u9rUbeQnPHvD2MlwmT2O465cLA6HAz8o3vWbhRRCLODqq1V5bOr28zVbCiEspqcX1gM2tsP3y4IZ4EP31FfxASsjb+O4+PDxw5eHheDrcX3hBk6HarWLr+LO4BS9TensVlUcFjM+rZ8rlRGXGfu0GuLvffdQN3A11u1zxur1Mvut3sem6f6kjB2XmdgdM/Z8/j3U6/FxmcmQbh5jvXkc57t9HQ+/dGkBE0wG/GWsQ7yHpjsss6Hqu6bJUgLltLFltuvjEPt9zNCfzX3a3V1V91UTGTbULLO3D9MnY8PYd5+x4K2YPjNQbOsx9k2NH+QDuEJw0tzg6nm+6tNFtji5363Gx3TB4OE55ZwClW3XxtuTy/Ic4vYfEUoSt8m66LD5enwuKTt5mstbVl3bxmrs+qJ66ver8alHADFboawpujvf43bLsEOtrNa5NFwY4bVnFRO5YAXxoK0inQsuhAus0JyUdcHlRUKUZe+Z504Iks5My5X3sLNca2UCFkpkL6TyFphRwXvlcym40vAjgVly0kqfk+UhOKsUI8WFF0banBxX0toQJkwGC+i8VclI8mCNJspJcOeNJ0ohtEFg2CkOD1obYA4LCXZpUzqQUcxxkoRMXa65DITnjiUvSmmTMCRmrZSpMEooYXXCpLbSBlSGuFJE0pxqAJfwp50zZBMCM4NaATPWUaBcIphy5DzDQxOCCtiJd0I7r1gxVUo4iwjaKG/chFmhTcg9VwHFSZCAE+e9yRUn8nYqnaIghc6JG9KSzJS9kN7DvdVIU6eAhGaZPPXVSLKpgRK7xx4U9mC1M6xwaEIwKJDiAbm6mRvX2X1+dpYEkHYdx+ddhE5VwzCk71Bl7F+JPpP7FY8F19YZJbU74f1TE8u4jwiwnqfiYkKKSQFK2h1nABIXMQDlp6dxvMT+6uq2nJKY0a8hrQUhCYN5MQ2JHA5FBp9RbEE2aDQ99ToQCJJjKEyQkjwsMQIuMb9QGALjZbiKpVEClcklUgseHBwlgkgjTKo6HGs5NVlYJ2RiDEmJkUEoJ4VCtyQ6ib6ba1ADUMzcxvZELNzFAGOqdNAnshrJConx8sErecrEaePZyzfyoEmrH9KVa3x4qV6q6uV/zQUKqLZX2ieRsR6dnbiABjk0T2H2II8ORTVcY4ZAGUiRlv4aMvUDOhKs8hOLnLHaTobIlSw0VWJwBUzfJ0VJUgYSBg7FgIVNIoj5tqCgh28oVaCrWMMk2OAgupMe4QXAQUJOhLBJ4APSgZ5JsE+ypANeQ4CwCPLjIHvX2FD8Z3z4xs3Yr9oB7xvboootGlMcp5cCKxVm4rvGOF+hXw5zg5GdqHZ5fv8A0b5zmM9H+XSQCxzoi/ufE4ircyjD/U8Pdg71KtDdYpP+4e3y/s3fVC16x9YKAAA=" format="svgz/base64"/>
@@ -226,7 +226,7 @@
      </Submodel>
     </Comp>
     <Comp alias="timesync_1" circuitScopeId="2" depth="204" displayName="timesync" geometry="1" iconDescription="time synchronization" labelVisible="0" libraryId="simu.timesync" name="timesync" scaleX="1.000000" scaleY="1.000000" type="0">
-     <Pos x="267" y="226"/>
+     <Pos x="267" y="246"/>
      <LabelPos configured="0" direction="0" x="0" y="0"/>
      <CirCompIcon cirIconIdentity="1" cirPortGraphics="IDxQT1JUUy8+Cg==" cirPortHidden="0">
       <IconMap data="H4sIAAAAAAACCtVWTW/bRhC951csmIMv5Gpnv5e2HKAJeuqhh/RcKNRaZkORAklLsn9931JiIqdCgwDNoYJlkY+zMzszb97y7t1x27B97Ie6a5c3xMUNi23Vret2s7z54+Ovhb95d//mbthvGCzboVxt41Bvl9m+XfNmO/B6u9rUbeQnPHvD2MlwmT2O465cLA6HAz8o3vWbhRRCLODqq1V5bOr28zVbCiEspqcX1gM2tsP3y4IZ4EP31FfxASsjb+O4+PDxw5eHheDrcX3hBk6HarWLr+LO4BS9TensVlUcFjM+rZ8rlRGXGfu0GuLvffdQN3A11u1zxur1Mvut3sem6f6kjB2XmdgdM/Z8/j3U6/FxmcmQbh5jvXkc57t9HQ+/dGkBE0wG/GWsQ7yHpjsss6Hqu6bJUgLltLFltuvjEPt9zNCfzX3a3V1V91UTGTbULLO3D9MnY8PYd5+x4K2YPjNQbOsx9k2NH+QDuEJw0tzg6nm+6tNFtji5363Gx3TB4OE55ZwClW3XxtuTy/Ic4vYfEUoSt8m66LD5enwuKTt5mstbVl3bxmrs+qJ66ver8alHADFboawpujvf43bLsEOtrNa5NFwY4bVnFRO5YAXxoK0inQsuhAus0JyUdcHlRUKUZe+Z504Iks5My5X3sLNca2UCFkpkL6TyFphRwXvlcym40vAjgVly0kqfk+UhOKsUI8WFF0banBxX0toQJkwGC+i8VclI8mCNJspJcOeNJ0ohtEFg2CkOD1obYA4LCXZpUzqQUcxxkoRMXa65DITnjiUvSmmTMCRmrZSpMEooYXXCpLbSBlSGuFJE0pxqAJfwp50zZBMCM4NaATPWUaBcIphy5DzDQxOCCtiJd0I7r1gxVUo4iwjaKG/chFmhTcg9VwHFSZCAE+e9yRUn8nYqnaIghc6JG9KSzJS9kN7DvdVIU6eAhGaZPPXVSLKpgRK7xx4U9mC1M6xwaEIwKJDiAbm6mRvX2X1+dpYEkHYdx+ddhE5VwzCk71Bl7F+JPpP7FY8F19YZJbU74f1TE8u4jwiwnqfiYkKKSQFK2h1nABIXMQDlp6dxvMT+6uq2nJKY0a8hrQUhCYN5MQ2JHA5FBp9RbEE2aDQ99ToQCJJjKEyQkjwsMQIuMb9QGALjZbiKpVEClcklUgseHBwlgkgjTKo6HGs5NVlYJ2RiDEmJkUEoJ4VCtyQ6ib6ba1ADUMzcxvZELNzFAGOqdNAnshrJConx8sErecrEaePZyzfyoEmrH9KVa3x4qV6q6uV/zQUKqLZX2ieRsR6dnbiABjk0T2H2II8ORTVcY4ZAGUiRlv4aMvUDOhKs8hOLnLHaTobIlSw0VWJwBUzfJ0VJUgYSBg7FgIVNIoj5tqCgh28oVaCrWMMk2OAgupMe4QXAQUJOhLBJ4APSgZ5JsE+ypANeQ4CwCPLjIHvX2FD8Z3z4xs3Yr9oB7xvboootGlMcp5cCKxVm4rvGOF+hXw5zg5GdqHZ5fv8A0b5zmM9H+XSQCxzoi/ufE4ircyjD/U8Pdg71KtDdYpP+4e3y/s3fVC16x9YKAAA=" format="svgz/base64"/>
@@ -284,7 +284,7 @@
      </Submodel>
     </Comp>
     <Comp alias="component_3" circuitScopeId="3" depth="205" displayName="component_3" geometry="1" iconDescription="description for supercomponent" labelVisible="0" libraryId="Lib_Test1.component_3" name="component_3" scaleX="1.000000" scaleY="1.000000" type="0">
-     <Pos x="335" y="47"/>
+     <Pos x="335" y="67"/>
      <LabelPos configured="0" direction="0" x="0" y="0"/>
      <CirCompIcon cirIconIdentity="1" cirPortGraphics="IDxQT1JUUy8+Cg==" cirPortHidden="0">
       <IconMap data="H4sIAAAAAAACCs1STY+bMBC991dYzqVVCzZsoiYIOFRVpV7bQ89eY4gbfyDbAfLvO2YDm4121R5rCTN+8958eFz6oUODFOMXO1WYIor2D+jzFqNBOC+tqXCWZhjJpsLA3GM0aWV80fAKH0PoC0L6s1OpdR1pOBFKaGGCJyAiC5c/c7kTLMhBcKu1NX6WGb9ZmK5pV+o4jun4MDOyw+FAaE7yPAFG4i8msCm50UFlr+lySikB30KblDSnNxPM3iv1X6IxLbzUFR5MkyrtU6lZJ41In3Bcl1oE1rDA5stbDjtwQBPFj6/f6pLz4pd1JxQB9mjPocII/A0vWus0C3WMKWLSj5CzJM+OyAmXXsxSJ7w9Oy5eHUnDtYxM8jNIpb7HgJg86WVQAkxyLQOstTKy1FuXHQqOGR8TQxssODm9z1IKT2Xd5mOWr/uHvzT5f/TYW3WBmQvUgqjCm3ZeeD4mtmccYsbnTylGvZXwrCu8TXf0E4UN7fZ35vYQbXpvRmtVYeSDsyfoYkPntQBJw/yROccg4wvMtq0XcGU0vSHHqjnrK/x4DuEF+hvqhCnJINyKzycl4Vfh/DbMXY9XdJRNOF6xeHMdfDCd+t0fjl7FXSsEAAA=" format="svgz/base64"/>
@@ -301,7 +301,7 @@
      </Submodel>
      <Supercomponent catname="Lib_Test1" scDir="D:/SCG/GithubRepo/Model_Lib_ExGit/Library/lib_test1/submodels">
       <PortsMap/>
-      <Circuit ameApplication="AMESim" highestId="76">
+      <Circuit ameApplication="AMESim" highestId="83">
        <Comps>
         <Comp alias="gravityicon" circuitScopeId="1" depth="201" displayName="gravityicon" geometry="1" iconDescription="sets the gravity" labelVisible="0" libraryId="meca.gravityicon" name="gravityicon" scaleX="1.000000" scaleY="1.000000" type="0">
          <Pos x="67" y="67"/>
@@ -536,6 +536,64 @@
        <globalParams/>
       </Circuit>
      </Supercomponent>
+    </Comp>
+    <Comp alias="timesync_2" circuitScopeId="1" depth="206" displayName="timesync" geometry="1" iconDescription="time synchronization" labelVisible="0" libraryId="simu.timesync" name="timesync" scaleX="1.000000" scaleY="1.000000" type="0">
+     <Pos x="359" y="183"/>
+     <LabelPos configured="0" direction="0" x="0" y="0"/>
+     <CirCompIcon cirIconIdentity="1" cirPortGraphics="IDxQT1JUUy8+Cg==" cirPortHidden="0">
+      <IconMap data="H4sIAAAAAAACCtVWTW/bRhC951csmIMv5Gpnv5e2HKAJeuqhh/RcKNRaZkORAklLsn9931JiIqdCgwDNoYJlkY+zMzszb97y7t1x27B97Ie6a5c3xMUNi23Vret2s7z54+Ovhb95d//mbthvGCzboVxt41Bvl9m+XfNmO/B6u9rUbeQnPHvD2MlwmT2O465cLA6HAz8o3vWbhRRCLODqq1V5bOr28zVbCiEspqcX1gM2tsP3y4IZ4EP31FfxASsjb+O4+PDxw5eHheDrcX3hBk6HarWLr+LO4BS9TensVlUcFjM+rZ8rlRGXGfu0GuLvffdQN3A11u1zxur1Mvut3sem6f6kjB2XmdgdM/Z8/j3U6/FxmcmQbh5jvXkc57t9HQ+/dGkBE0wG/GWsQ7yHpjsss6Hqu6bJUgLltLFltuvjEPt9zNCfzX3a3V1V91UTGTbULLO3D9MnY8PYd5+x4K2YPjNQbOsx9k2NH+QDuEJw0tzg6nm+6tNFtji5363Gx3TB4OE55ZwClW3XxtuTy/Ic4vYfEUoSt8m66LD5enwuKTt5mstbVl3bxmrs+qJ66ver8alHADFboawpujvf43bLsEOtrNa5NFwY4bVnFRO5YAXxoK0inQsuhAus0JyUdcHlRUKUZe+Z504Iks5My5X3sLNca2UCFkpkL6TyFphRwXvlcym40vAjgVly0kqfk+UhOKsUI8WFF0banBxX0toQJkwGC+i8VclI8mCNJspJcOeNJ0ohtEFg2CkOD1obYA4LCXZpUzqQUcxxkoRMXa65DITnjiUvSmmTMCRmrZSpMEooYXXCpLbSBlSGuFJE0pxqAJfwp50zZBMCM4NaATPWUaBcIphy5DzDQxOCCtiJd0I7r1gxVUo4iwjaKG/chFmhTcg9VwHFSZCAE+e9yRUn8nYqnaIghc6JG9KSzJS9kN7DvdVIU6eAhGaZPPXVSLKpgRK7xx4U9mC1M6xwaEIwKJDiAbm6mRvX2X1+dpYEkHYdx+ddhE5VwzCk71Bl7F+JPpP7FY8F19YZJbU74f1TE8u4jwiwnqfiYkKKSQFK2h1nABIXMQDlp6dxvMT+6uq2nJKY0a8hrQUhCYN5MQ2JHA5FBp9RbEE2aDQ99ToQCJJjKEyQkjwsMQIuMb9QGALjZbiKpVEClcklUgseHBwlgkgjTKo6HGs5NVlYJ2RiDEmJkUEoJ4VCtyQ6ib6ba1ADUMzcxvZELNzFAGOqdNAnshrJConx8sErecrEaePZyzfyoEmrH9KVa3x4qV6q6uV/zQUKqLZX2ieRsR6dnbiABjk0T2H2II8ORTVcY4ZAGUiRlv4aMvUDOhKs8hOLnLHaTobIlSw0VWJwBUzfJ0VJUgYSBg7FgIVNIoj5tqCgh28oVaCrWMMk2OAgupMe4QXAQUJOhLBJ4APSgZ5JsE+ypANeQ4CwCPLjIHvX2FD8Z3z4xs3Yr9oB7xvboootGlMcp5cCKxVm4rvGOF+hXw5zg5GdqHZ5fv8A0b5zmM9H+XSQCxzoi/ufE4ircyjD/U8Pdg71KtDdYpP+4e3y/s3fVC16x9YKAAA=" format="svgz/base64"/>
+     </CirCompIcon>
+     <Submodel autonomousCompilation="False" autonomousRuntime="False" cirPortsOverFramework="0" codeGenVersion="2.0" dir="$AME/libame/submodels" hasContextPtr="1" hasTerminate="1" idMax="20" idsReset="0" label="synchronize simulation with wall clock time" name="SIMSYNCTIME0" outputType="1" type="0" unit="1">
+      <RealParams>
+       <Params>
+        <Param defValue="1" maxValue="1e+30" minValue="1e-30" subId="13" title="scaling for time synchronization (fixed step only - bigger than 1 to run slower than wall clock time)" units="null" value="1" varName="timescaling" visibility="synch==2"/>
+        <Param defValue="0.1" maxValue="1e+30" minValue="0" subId="19" title="maximum time step" units="s" value="0.1" varName="maxtimestep" visibility="simsteplimitmethod==2"/>
+       </Params>
+      </RealParams>
+      <IntParams>
+       <Params>
+        <Param defValue="2" maxValue="2" minValue="1" subId="9" title="synchronize with wall clock time" value="2" varName="synch" visibility="True">
+         <Enums>
+          <Enum string="no"/>
+          <Enum string="yes"/>
+         </Enums>
+        </Param>
+        <Param defValue="1" maxValue="3" minValue="1" subId="17" title="set a maximum time step" value="1" varName="simsteplimitmethod" visibility="True">
+         <Enums>
+          <Enum string="set to print interval"/>
+          <Enum string="set to user-defined value"/>
+          <Enum string="use settings from run parameters"/>
+         </Enums>
+        </Param>
+       </Params>
+      </IntParams>
+      <ParamsGroups>
+       <Group circuitScopeId="83" editable="0" editableTitle="1" groupHeadIcon="" name="ROOTGROUP" origTitle="ROOTGROUP" subId="20">
+        <Elements>
+         <Element display="0" varName="synch"/>
+         <Element display="0" varName="simsteplimitmethod"/>
+         <Element display="0" varName="timescaling"/>
+         <Element display="0" varName="maxtimestep"/>
+         <Element display="1" varName="etime"/>
+         <Element display="1" varName="waittime"/>
+        </Elements>
+       </Group>
+      </ParamsGroups>
+      <IntVars>
+       <Vars>
+        <Var dimension="1" saveValue="1" subId="8" title="elapsed time from start of simulation" type="0" units="s" varName="etime" visibility="True">
+         <LaData>
+          <Data laStatus="0"/>
+         </LaData>
+        </Var>
+        <Var dimension="1" saveValue="1" subId="15" title="time to wait" type="0" units="s" varName="waittime" visibility="True">
+         <LaData>
+          <Data laStatus="0"/>
+         </LaData>
+        </Var>
+       </Vars>
+      </IntVars>
+     </Submodel>
     </Comp>
    </Comps>
    <animationProperties loop="0" speed="1"/>
