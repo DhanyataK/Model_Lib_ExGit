@@ -6,7 +6,7 @@
   <Circuit ameApplication="AMESim" highestId="235">
    <Comps>
     <Comp alias="gravityicon" circuitScopeId="1" depth="201" displayName="gravityicon" geometry="1" iconDescription="sets the gravity" labelVisible="0" libraryId="meca.gravityicon" name="gravityicon" scaleX="1.000000" scaleY="1.000000" type="0">
-     <Pos x="67" y="67" />
+     <Pos x="67" y="95" />
      <LabelPos configured="0" direction="0" x="0" y="0" />
      <CirCompIcon cirIconIdentity="1" cirPortGraphics="IDxQT1JUUy8+Cg==" cirPortHidden="0">
       <IconMap data="H4sIAAAAAAACCrWTTY/TMBCG7/srLO+hF9uxnY+tq82uBBInkJAKZ1RctzXrxJUdkpZfzzgfK1EBEgesTt/JZDLzzCh5fL40DvUmROvbeiUYXyHTar+37bFeff70jq5Xz093j7E/Ishs42bXmGibGvftnrkmMtvsjrY1bIrjKavGp647b7JsGAY25MyHYyY55xnUmVM2F2fbl98lCqVUNt7Fr2RYMInR1100H4M/WGdq3Nn2ipHd1/i97Y1z/ouA0jXm5wtG11kHu+9ONc5VujgZezx1y1VvzfDGpwcQR7mCH0Ye+h2cH2ocdfDOjaybeN5paHgOJprQGwz70DZoZxCQuBrfH8aDUeyCf4HMez6eJUBnCvkaaGxngrMgMBnkacAQipXgXRcvgLMGJ4N25113Wprp8WAEg3+QgshK05zlhLM1rZgisCiqWAVaaEkkeCUTpABNUVAtOOFESFbSh0mEYGWkkkI3WoIphDTlTIEJKqBuUskeoIfQAqolk6wAW5MUL5h6K9cQSOREKiLhXkL7cUvf+tb8eU+3axlHBNaclRqgR0CRjEMbCG6FILlMrXIZbydC6JeZtnMhMus/osHraL55C29i8N/b/V+RSyLKiRg2U9IEW9E8Jl+CJ4AMIGGLADMpkM6cVfqPdASlJSm2UzEyyX+Elqll1ct51TLZAgf7TZY2KmieBqLFdnqATDKBpc/76e4nFuwrrlQEAAA=" format="svgz/base64" />
@@ -66,11 +66,11 @@
         </Var>
        </Vars>
       </IntVars>
-      <ParameterSet id="{2b031117-23c8-45c0-b0b1-8753221f7029}" libraryPath="D:/SCG/GithubRepo/Model_Lib_ExGit/Library/lib_test1" name="PS_Gravity" />
+      <ParameterSet id="{2b031117-23c8-45c0-b0b1-8753221f7029}" libraryPath="D:/SCG/GithubRepo/New_folder/Library/lib_test1" name="PS_Gravity" />
      </Submodel>
     </Comp>
     <Comp alias="timesync" circuitScopeId="1" depth="202" displayName="timesync" geometry="1" iconDescription="time synchronization" labelVisible="0" libraryId="simu.timesync" name="timesync" scaleX="1.000000" scaleY="1.000000" type="0">
-     <Pos x="198" y="39" />
+     <Pos x="198" y="67" />
      <LabelPos configured="0" direction="0" x="0" y="0" />
      <CirCompIcon cirIconIdentity="1" cirPortGraphics="IDxQT1JUUy8+Cg==" cirPortHidden="0">
       <IconMap data="H4sIAAAAAAACCtVWTW/bRhC951csmIMv5Gpnv5e2HKAJeuqhh/RcKNRaZkORAklLsn9931JiIqdCgwDNoYJlkY+zMzszb97y7t1x27B97Ie6a5c3xMUNi23Vret2s7z54+Ovhb95d//mbthvGCzboVxt41Bvl9m+XfNmO/B6u9rUbeQnPHvD2MlwmT2O465cLA6HAz8o3vWbhRRCLODqq1V5bOr28zVbCiEspqcX1gM2tsP3y4IZ4EP31FfxASsjb+O4+PDxw5eHheDrcX3hBk6HarWLr+LO4BS9TensVlUcFjM+rZ8rlRGXGfu0GuLvffdQN3A11u1zxur1Mvut3sem6f6kjB2XmdgdM/Z8/j3U6/FxmcmQbh5jvXkc57t9HQ+/dGkBE0wG/GWsQ7yHpjsss6Hqu6bJUgLltLFltuvjEPt9zNCfzX3a3V1V91UTGTbULLO3D9MnY8PYd5+x4K2YPjNQbOsx9k2NH+QDuEJw0tzg6nm+6tNFtji5363Gx3TB4OE55ZwClW3XxtuTy/Ic4vYfEUoSt8m66LD5enwuKTt5mstbVl3bxmrs+qJ66ver8alHADFboawpujvf43bLsEOtrNa5NFwY4bVnFRO5YAXxoK0inQsuhAus0JyUdcHlRUKUZe+Z504Iks5My5X3sLNca2UCFkpkL6TyFphRwXvlcym40vAjgVly0kqfk+UhOKsUI8WFF0banBxX0toQJkwGC+i8VclI8mCNJspJcOeNJ0ohtEFg2CkOD1obYA4LCXZpUzqQUcxxkoRMXa65DITnjiUvSmmTMCRmrZSpMEooYXXCpLbSBlSGuFJE0pxqAJfwp50zZBMCM4NaATPWUaBcIphy5DzDQxOCCtiJd0I7r1gxVUo4iwjaKG/chFmhTcg9VwHFSZCAE+e9yRUn8nYqnaIghc6JG9KSzJS9kN7DvdVIU6eAhGaZPPXVSLKpgRK7xx4U9mC1M6xwaEIwKJDiAbm6mRvX2X1+dpYEkHYdx+ddhE5VwzCk71Bl7F+JPpP7FY8F19YZJbU74f1TE8u4jwiwnqfiYkKKSQFK2h1nABIXMQDlp6dxvMT+6uq2nJKY0a8hrQUhCYN5MQ2JHA5FBp9RbEE2aDQ99ToQCJJjKEyQkjwsMQIuMb9QGALjZbiKpVEClcklUgseHBwlgkgjTKo6HGs5NVlYJ2RiDEmJkUEoJ4VCtyQ6ib6ba1ADUMzcxvZELNzFAGOqdNAnshrJConx8sErecrEaePZyzfyoEmrH9KVa3x4qV6q6uV/zQUKqLZX2ieRsR6dnbiABjk0T2H2II8ORTVcY4ZAGUiRlv4aMvUDOhKs8hOLnLHaTobIlSw0VWJwBUzfJ0VJUgYSBg7FgIVNIoj5tqCgh28oVaCrWMMk2OAgupMe4QXAQUJOhLBJ4APSgZ5JsE+ypANeQ4CwCPLjIHvX2FD8Z3z4xs3Yr9oB7xvboootGlMcp5cCKxVm4rvGOF+hXw5zg5GdqHZ5fv8A0b5zmM9H+XSQCxzoi/ufE4ircyjD/U8Pdg71KtDdYpP+4e3y/s3fVC16x9YKAAA=" format="svgz/base64" />
@@ -126,6 +126,20 @@
        </Vars>
       </IntVars>
      </Submodel>
+    </Comp>
+    <Comp alias="sim_params" catname="simu" circuitScopeId="1" depth="203" displayName="sim_params" geometry="1" iconDescription="set simulation parameters from submodel" labelVisible="0" libraryId="simu.sim_params" name="sim_params" scaleX="1.000000" scaleY="1.000000" type="0">
+     <Pos x="105" y="26" />
+     <LabelPos configured="0" direction="0" x="0" y="0" />
+     <CirCompIcon cirIconIdentity="1" cirPortGraphics="IDxQT1JUUy8+Cg==" cirPortHidden="0">
+      <IconMap data="H4sIAAAAAAACCo1STY+bMBC951eMvIdciPEHNjiKs1IPPe1hD+25osQBaw1GgCD59x1I0lMPtSx7/Oa9N2PLp/dbG2B2w+hjZ/ecsj24rooX39V2//PH90Oxfz/vTuNcAzK78Vi2bvStJXN3oaEdqW/L2neOPnDyYFnSTFN/TNNlWegiaRzqVDDGUvR5Uo634LuvfxG5MSbdsuRvZ4RTQeB3ObrPIV59cJZMvrsT8BdLPvzsQoi/OFpbwvobgftzX/xlaiwRZj00ztfN9DrN3i3f4ioABsLgJBCx3jXExZKxGmIIW6/HsS8rLNgPbnTD7Ai+R33eAcCp8kMVHGBDwZK36zYIjNMQv1DwxrbxAg6tn9wQPG54H4QrLM4zqjC6v6JhDUj6sO/LqXmad7Fz/++Mj9JCTnWeG615IjIqszxTBVTAEgaSai64EiaRNMswxUFTwXmhpUkO+AnEKgNBmZbK6OQgqVJM5wbWpOZaFkiTlMtCmwwYZXIT5lRKplhRAKcyF4ojKDBikq1uRppCyRXKciWUEFg1Q9vVDL1MgeL16qe0Xhf8K+fdH6Cc6n2hAgAA" format="svgz/base64" />
+     </CirCompIcon>
+    </Comp>
+    <Comp alias="sim_params_1" catname="simu" circuitScopeId="2" depth="204" displayName="sim_params" geometry="1" iconDescription="set simulation parameters from submodel" labelVisible="0" libraryId="simu.sim_params" name="sim_params" scaleX="1.000000" scaleY="1.000000" type="0">
+     <Pos x="147" y="123" />
+     <LabelPos configured="0" direction="0" x="0" y="0" />
+     <CirCompIcon cirIconIdentity="1" cirPortGraphics="IDxQT1JUUy8+Cg==" cirPortHidden="0">
+      <IconMap data="H4sIAAAAAAACCo1STY+bMBC951eMvIdciPEHNjiKs1IPPe1hD+25osQBaw1GgCD59x1I0lMPtSx7/Oa9N2PLp/dbG2B2w+hjZ/ecsj24rooX39V2//PH90Oxfz/vTuNcAzK78Vi2bvStJXN3oaEdqW/L2neOPnDyYFnSTFN/TNNlWegiaRzqVDDGUvR5Uo634LuvfxG5MSbdsuRvZ4RTQeB3ObrPIV59cJZMvrsT8BdLPvzsQoi/OFpbwvobgftzX/xlaiwRZj00ztfN9DrN3i3f4ioABsLgJBCx3jXExZKxGmIIW6/HsS8rLNgPbnTD7Ai+R33eAcCp8kMVHGBDwZK36zYIjNMQv1DwxrbxAg6tn9wQPG54H4QrLM4zqjC6v6JhDUj6sO/LqXmad7Fz/++Mj9JCTnWeG615IjIqszxTBVTAEgaSai64EiaRNMswxUFTwXmhpUkO+AnEKgNBmZbK6OQgqVJM5wbWpOZaFkiTlMtCmwwYZXIT5lRKplhRAKcyF4ojKDBikq1uRppCyRXKciWUEFg1Q9vVDL1MgeL16qe0Xhf8K+fdH6Cc6n2hAgAA" format="svgz/base64" />
+     </CirCompIcon>
     </Comp>
    </Comps>
    <animationProperties loop="0" speed="1" />
